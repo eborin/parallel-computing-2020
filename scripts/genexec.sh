@@ -42,7 +42,8 @@ do
 		while [ $i -le  10 ] 
 		do
 			in=$s"_"$n"_"$i".in"
-			report "- Executing for in = ${in}"
+			D=`date`
+			report "- Executing for in = ${in}. Start at $D"
 			./$generator $s $n > $in \
 			    || fail "error when executing ./$generator $s $n > $in"
 			./bbsegsort/bbsegsort.exe < $in >> $out/bbsegsort.time \
@@ -64,6 +65,7 @@ do
 				./nthrust.exe	       	< $in	>> $out/nthrust.time \
 				    || fail "error when executing nthrust.exe < $in"
 			fi
+			report "- Executing for in = ${in}. End at $D"
 
 			rm -f $in
 			((i=$i+1))

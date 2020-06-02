@@ -39,27 +39,36 @@ report "Start time: $D"
 
 source "${cfgfile}" &>> "${cfglog}" || fail "Error when sourcing configuration script \"${cfgfile}\""
 
+# Try to read the devices informatin
+report "1-Reading devices..."
+report "lscpi | grep -i nvidia"
+lspci | grep -i nvidia 2>> "${cfglog}"
+if [ -f utils/deviceQuery ]; then
+    report "./utils/deviceQuery"
+    ./utils/deviceQuery 2>> "${cfglog}"
+fi
+
 # Build utils
-report "1- Building utils..."
+report "2-Building utils..."
 (cd utils && make || fail "Could not build utils") &>> "${cfglog}"
 
 # Build sorting apps
-report "2- Building sorting apps..."
+report "3-Building sorting apps..."
 (cd src && make || fail "Could not build utils")  &>> "${cfglog}"
 (cd src/bbsegsort && make || fail "Could not build utils")  &>> "${cfglog}"
 
 # Build sorting apps
-report "3- Executing benchmark..."
+report "4-Executing benchmark..."
 mkdir -p "./times/equal/${cfg}" || fail "Could not create directory ./times/equal/${cfg}"
 mkdir -p "./times/diff/${cfg}" || fail "Could not create directory ./times/diff/${cfg}"
 
-(cd ./src && bash -x ../scripts/genexec.sh "../times/equal/${cfg}" ../utils/equal.exe 2>> "../${cfglog}") \
+(cd ./src && ../scripts/genexec.sh "../times/equal/${cfg}" ../utils/equal.exe 2>> "../${cfglog}") \
     || fail "Error when executing benchmarks: equal"
 
 (cd ./src && ../scripts/genexec.sh "../times/diff/${cfg}" ../utils/diff.exe 2>> "../${cfglog}") \
     || fail "Error when executing benchmarks: diff"
 
-report "4- Execution finished without errors"
+report "5-Execution finished without errors"
 
 D=`date`
 report "End time: $D"
