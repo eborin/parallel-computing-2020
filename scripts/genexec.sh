@@ -25,9 +25,9 @@ do
 		echo -e "\n"$s"\n"$n >> $out/fixpasscub.time
 		echo -e "\n"$s"\n"$n >> $out/fixpassthrust.time
 
-#		if [ $s -le 2048 ]; then
-		echo -e "\n"$s"\n"$n >> $out/nthrust.time
-#		fi
+		if [ $s -le 2048 ]; then
+			echo -e "\n"$s"\n"$n >> $out/nthrust.time
+		fi
 		
 		i=1
 		while [ $i -le  10 ] 
@@ -43,9 +43,9 @@ do
 			./fixpasscub.exe		< $in	>> $out/fixpasscub.time
 			./fixpassthrust.exe		< $in	>> $out/fixpassthrust.time
 
-#			if [ $s -le 2048 ]; then
-			./nthrust.exe			< $in	>> $out/nthrust.time
-#			fi
+			if [ $s -le 2048 ]; then
+				./nthrust.exe			< $in	>> $out/nthrust.time
+			fi
 
 			rm -f $in
 			((i=$i+1))
