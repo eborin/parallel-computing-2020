@@ -6,7 +6,7 @@
 
 arch= -gencode arch=compute_${ARCH},code=sm_${ARCH} -O3
 
-all: mergeseg radixseg fixcub fixthrust fixpasscub fixpassthrust 
+all: mergeseg radixseg fixcub fixthrust fixpasscub fixpassthrust nthrust 
 
 mergeseg: mergeseg.cu
 	nvcc $(arch) mergeseg.cu -o mergeseg.exe -I"../lib" -std=c++11 --expt-extended-lambda -lcuda -DELAPSED_TIME=$(TIME) -DEXECUTIONS=$(EXECS) -Xptxas="-v"
