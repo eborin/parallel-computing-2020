@@ -29,8 +29,13 @@ function report {
 
 function fail {
     report "FAIL: $@"
+    D=`date`
+    report "Failure time: $D"
     exit 1
 }
+
+D=`date`
+report "Start time: $D"
 
 source "${cfgfile}" &>> "${cfglog}" || fail "Error when sourcing configuration script \"${cfgfile}\""
 
@@ -55,3 +60,6 @@ mkdir -p "./times/diff/${cfg}" || fail "Could not create directory ./times/diff/
     || fail "Error when executing benchmarks: diff"
 
 report "4- Execution finished without errors"
+
+D=`date`
+report "End time: $D"
