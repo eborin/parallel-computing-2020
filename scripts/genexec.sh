@@ -2,6 +2,15 @@
 out=$1
 generator=$2
 
+function report {
+    echo "$@"
+}
+
+function fail {
+    echo "genexec.sh ERROR: $@"
+    exit 1
+}
+
 echo "" > $out/bbsegsort.time
 echo "" > $out/mergeseg.time
 echo "" > $out/radixseg.time
@@ -33,18 +42,27 @@ do
 		while [ $i -le  10 ] 
 		do
 			in=$s"_"$n"_"$i".in"
-			./$generator $s $n > $in
-
-			./bbsegsort/bbsegsort.exe 	< $in 	>> $out/bbsegsort.time
-			./mergeseg.exe 			< $in 	>> $out/mergeseg.time
-			./radixseg.exe 			< $in 	>> $out/radixseg.time
-			./fixcub.exe 			< $in 	>> $out/fixcub.time
-			./fixthrust.exe 		< $in	>> $out/fixthrust.time
-			./fixpasscub.exe		< $in	>> $out/fixpasscub.time
-			./fixpassthrust.exe		< $in	>> $out/fixpassthrust.time
+			report "- Executing for in = ${in}"
+			./$generator $s $n > $in \
+			    || fail "error when executing ./$generator $s $n > $in"
+			./bbsegsort/bbsegsort.exe < $in >> $out/bbsegsort.time \
+			    || fail "error when executing bbsegsort/bbsegsort.exe < $in"
+			./mergeseg.exe 			< $in 	>> $out/mergeseg.time \
+			    || fail "error when executing mergeseg.exe < $in"
+			./radixseg.exe 			< $in 	>> $out/radixseg.time \
+			    || fail "error when executing radixseg.exe < $in"
+			./fixcub.exe 			< $in 	>> $out/fixcub.time \
+			    || fail "error when executing fixcub.exe < $in"
+			./fixthrust.exe 		< $in	>> $out/fixthrust.time \
+			    || fail "error when executing fixthrust.exe < $in"
+			./fixpasscub.exe		< $in	>> $out/fixpasscub.time \
+			    || fail "error when executing fixpasscub.exe < $in"
+			./fixpassthrust.exe		< $in	>> $out/fixpassthrust.time \
+			    || fail "error when executing fixpassthrust.exe < $in"
 
 			if [ $s -le 2048 ]; then
-				./nthrust.exe			< $in	>> $out/nthrust.time
+				./nthrust.exe	       	< $in	>> $out/nthrust.time \
+				    || fail "error when executing nthrust.exe < $in"
 			fi
 
 			rm -f $in
