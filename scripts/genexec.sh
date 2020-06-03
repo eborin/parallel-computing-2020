@@ -87,8 +87,8 @@ do
 			if [ "$?" != 0 ]; then
 			    fail "error when executing ./$generator $s $n > $in"
 			else
-			    for i in mergeseg radixseg fixcub fixthrust fixpasscub fixpassthrust; do
-				execute_sort_kernel "./${i}.exe" "${in}" "${i}" "${out}" 
+			    for ap in mergeseg radixseg fixcub fixthrust fixpasscub fixpassthrust; do
+				execute_sort_kernel "./${ap}.exe" "${in}" "${ap}" "${out}" 
 			    done
 
 			    execute_sort_kernel "./bbsegsort/bbsegsort.exe" "${in}" "bbsegsort" "${out}" 
