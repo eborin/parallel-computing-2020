@@ -59,13 +59,13 @@ report "3-Building sorting apps..."
 
 # Build sorting apps
 report "4-Executing benchmark..."
-mkdir -p "./times/equal/${cfg}" || fail "Could not create directory ./times/equal/${cfg}"
-mkdir -p "./times/diff/${cfg}" || fail "Could not create directory ./times/diff/${cfg}"
+mkdir -p "./times/equal/${cfg}-${DT}" || fail "Could not create directory ./times/equal/${cfg}-${DT}"
+mkdir -p "./times/diff/${cfg}-${DT}" || fail "Could not create directory ./times/diff/${cfg}-${DT}"
 
-(cd ./src && ../scripts/genexec.sh "../times/equal/${cfg}" ../utils/equal.exe &>> "../${cfglog}") \
+(cd ./src && ../scripts/genexec.sh "../times/equal/${cfg}-${DT}" ../utils/equal.exe &>> "../${cfglog}") \
     || fail "Error when executing benchmarks: equal"
 
-(cd ./src && ../scripts/genexec.sh "../times/diff/${cfg}" ../utils/diff.exe &>> "../${cfglog}") \
+(cd ./src && ../scripts/genexec.sh "../times/diff/${cfg}-${DT}" ../utils/diff.exe &>> "../${cfglog}") \
     || fail "Error when executing benchmarks: diff"
 
 report "5-Execution finished without errors"
