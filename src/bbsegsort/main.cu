@@ -32,9 +32,9 @@
 
 using namespace std;
 
-#define CUDA_CHECK(_e, _s) if(_e != cudaSuccess) { \
-        std::cout << "CUDA error (" << _s << "): " << cudaGetErrorString(_e) << std::endl; \
-        return 0; }
+#define CUDA_CHK(_e, _s) if(_e != cudaSuccess) { \
+        std::cerr << "CUDA error (" << _s << "): " << cudaGetErrorString(_e) << std::endl; \
+        return 1; }
 
 template<class K, class T>
 void gold_segsort(vector<K> &key, vector<T> &val, int n, const vector<int> &seg, int m);
@@ -82,30 +82,33 @@ int main(int argc, char **argv)
 	cudaError_t err;
 
 	err = cudaMalloc((void**)&key_d, sizeof(int   )*num_of_elements);
-	CUDA_CHECK(err, "alloc key_d");
+	CUDA_CHK(err, "alloc key_d");
 	err = cudaMalloc((void**)&val_d, sizeof(double)*num_of_elements);
-	CUDA_CHECK(err, "alloc val_d");
+	CUDA_CHK(err, "alloc val_d");
 	err = cudaMalloc((void**)&seg_d, sizeof(int   )*num_of_segments);
-	CUDA_CHECK(err, "alloc seg_d");
+	CUDA_CHK(err, "alloc seg_d");
 
 	err = cudaMemcpy(seg_d, &h_seg[0], sizeof(int   )*num_of_segments, cudaMemcpyHostToDevice);
-	CUDA_CHECK(err, "copy to seg_d");
+	CUDA_CHK(err, "copy to seg_d");
 
 	float averageExecutions = 0;
 	for (uint j = 0; j < EXECUTIONS; j++) {
 		err = cudaMemcpy(key_d, &h_vec[0], sizeof(int   )*num_of_elements, cudaMemcpyHostToDevice);
-		CUDA_CHECK(err, "copy to key_d");
+		CUDA_CHK(err, "copy to key_d");
 		err = cudaMemcpy(val_d, &h_val[0], sizeof(double)*num_of_elements, cudaMemcpyHostToDevice);
-		CUDA_CHECK(err, "copy to val_d");
+		CUDA_CHK(err, "copy to val_d");
 
 		cudaEventRecord(start);
-		bb_segsort(key_d, val_d, num_of_elements, seg_d, num_of_segments);
+		if (bb_segsort(key_d, val_d, num_of_elements, seg_d, num_of_segments) != 0) {
+			std::cerr << "Error when executing bb_segsort(...)" << std::endl;
+			return 1;
+		}
 		cudaEventRecord(stop);
 
 		err = cudaMemcpy(&h_vec[0], key_d, sizeof(int   )*num_of_elements, cudaMemcpyDeviceToHost);
-		CUDA_CHECK(err, "copy from key_d");
+		CUDA_CHK(err, "copy from key_d");
 		err = cudaMemcpy(&h_val[0], val_d, sizeof(double)*num_of_elements, cudaMemcpyDeviceToHost);
-		CUDA_CHECK(err, "copy from val_d");
+		CUDA_CHK(err, "copy from val_d");
 
 		if (ELAPSED_TIME == 1) {
 			cudaEventSynchronize(stop);
@@ -119,11 +122,11 @@ int main(int argc, char **argv)
 	}
 
     err = cudaFree(key_d);
-    CUDA_CHECK(err, "free key_d");
+    CUDA_CHK(err, "free key_d");
     err = cudaFree(val_d);
-    CUDA_CHECK(err, "free val_d");
+    CUDA_CHK(err, "free val_d");
     err = cudaFree(seg_d);
-    CUDA_CHECK(err, "free seg_d");
+    CUDA_CHK(err, "free seg_d");
 
 	if (ELAPSED_TIME != 1) {
 		print(h_vec.data(), num_of_elements);
@@ -178,7 +181,7 @@ int show_mem_usage()
     size_t free_byte ;
     size_t total_byte ;
     err = cudaMemGetInfo(&free_byte, &total_byte);
-    CUDA_CHECK(err, "check memory info.");
+    CUDA_CHK(err, "check memory info.");
     size_t used_byte  = total_byte - free_byte;
     printf("GPU memory usage: used = %4.2lf MB, free = %4.2lf MB, total = %4.2lf MB\n", 
         used_byte/1024.0/1024.0, free_byte/1024.0/1024.0, total_byte/1024.0/1024.0);   
