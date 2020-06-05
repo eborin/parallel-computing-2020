@@ -1,0 +1,5377 @@
+
+
+1
+32768
+0.536832
+0.546253
+0.537952
+0.537318
+0.555178
+0.538742
+0.553226
+0.53887
+0.54055
+0.540896
+
+2
+32768
+0.569933
+0.552813
+0.553949
+0.559885
+0.575914
+0.542054
+0.592749
+0.543914
+0.550899
+0.553235
+
+4
+32768
+0.561485
+0.528787
+0.58656
+0.548538
+0.570598
+0.56383
+0.594922
+0.527338
+0.531178
+0.569414
+
+8
+32768
+0.573594
+0.55961
+0.565373
+0.539219
+0.55359
+0.563936
+0.564506
+0.572106
+0.539142
+0.557709
+
+16
+32768
+0.579843
+0.549274
+0.521786
+0.564486
+0.540432
+0.538589
+0.561821
+0.555363
+0.546307
+0.547779
+
+32
+32768
+0.524752
+0.515507
+0.518928
+0.521539
+0.524157
+0.551926
+0.537344
+0.551568
+0.521174
+0.556611
+
+64
+32768
+0.52657
+0.541571
+0.221462
+0.526582
+0.532848
+0.22183
+0.534973
+0.222445
+0.536554
+0.540496
+
+128
+32768
+0.222064
+0.227331
+0.236704
+0.221082
+0.22024
+0.222314
+0.21791
+0.220454
+0.219293
+0.224739
+
+256
+32768
+0.231261
+0.229283
+0.222602
+0.225914
+0.232803
+0.218422
+0.224048
+0.221645
+0.229834
+0.226544
+
+512
+32768
+0.238173
+0.230963
+0.240374
+0.232522
+0.228486
+0.226608
+0.221069
+0.231622
+0.2352
+0.235546
+
+1024
+32768
+0.222061
+0.229066
+0.23591
+0.223654
+0.232915
+0.223347
+0.234211
+0.229126
+0.218416
+0.221286
+
+2048
+32768
+0.215341
+0.215178
+0.220525
+0.228861
+0.23144
+0.229299
+0.226781
+0.215504
+0.22079
+0.225149
+
+4096
+32768
+0.195235
+0.197517
+0.227082
+0.229046
+0.196256
+0.220867
+0.217635
+0.198499
+0.217734
+0.221686
+
+8192
+32768
+0.187619
+0.189354
+0.193062
+0.191174
+0.18999
+0.195936
+0.193136
+0.196774
+0.197587
+0.198752
+
+16384
+32768
+0.196771
+0.189098
+0.186742
+0.190038
+0.187606
+0.197203
+0.195894
+0.195926
+0.19665
+0.193603
+
+1
+65536
+0.816154
+0.813981
+0.841379
+0.813014
+0.812986
+0.839923
+0.843917
+0.812397
+0.816819
+0.811382
+
+2
+65536
+0.820662
+0.81921
+0.839184
+0.843686
+0.807306
+0.819846
+0.81191
+0.808451
+0.815066
+0.82105
+
+4
+65536
+0.840134
+0.837683
+0.834909
+0.824669
+0.78159
+0.772749
+0.854182
+0.824602
+0.815482
+0.783686
+
+8
+65536
+0.859062
+0.80607
+0.823002
+0.833222
+0.805939
+0.821872
+0.817469
+0.811517
+0.801616
+0.759062
+
+16
+65536
+0.785392
+0.788637
+0.814691
+0.801443
+0.816973
+0.823949
+0.810851
+0.79664
+0.790758
+0.816682
+
+32
+65536
+0.80768
+0.762205
+0.789619
+0.789002
+0.789424
+0.808387
+0.803901
+0.782691
+0.796182
+0.798749
+
+64
+65536
+0.765504
+0.776061
+0.766432
+0.76864
+0.804576
+0.76855
+0.746797
+0.796848
+0.775027
+0.767837
+
+128
+65536
+0.75033
+0.423725
+0.748157
+0.75696
+0.779341
+0.732794
+0.742691
+0.741856
+0.75289
+0.736054
+
+256
+65536
+0.424448
+0.453741
+0.430566
+0.42265
+0.432083
+0.424003
+0.42817
+0.426246
+0.424934
+0.424246
+
+512
+65536
+0.418006
+0.421866
+0.453814
+0.420694
+0.450342
+0.419562
+0.42255
+0.419888
+0.422384
+0.428886
+
+1024
+65536
+0.41007
+0.436602
+0.420787
+0.41863
+0.422426
+0.41815
+0.421104
+0.414621
+0.441309
+0.410374
+
+2048
+65536
+0.412365
+0.417069
+0.43816
+0.434154
+0.411478
+0.424944
+0.417539
+0.438154
+0.413626
+0.414394
+
+4096
+65536
+0.431997
+0.430909
+0.422387
+0.405293
+0.432256
+0.421715
+0.417034
+0.41975
+0.43369
+0.410928
+
+8192
+65536
+0.415578
+0.418723
+0.412102
+0.416976
+0.409232
+0.388698
+0.414835
+0.420429
+0.414931
+0.436966
+
+16384
+65536
+0.390525
+0.414093
+0.416659
+0.3916
+0.394234
+0.392912
+0.4124
+0.396192
+0.396874
+0.394352
+
+32768
+65536
+0.381421
+0.382506
+0.380141
+0.385894
+0.382195
+0.381555
+0.380307
+0.407245
+0.379488
+0.381565
+
+1
+131072
+1.15973
+1.16012
+1.15229
+1.15998
+1.16085
+1.2025
+1.15446
+1.15468
+1.15601
+1.15192
+
+2
+131072
+1.14604
+1.19805
+1.15292
+1.1728
+1.1997
+1.16844
+1.23072
+1.1985
+1.15863
+1.20699
+
+4
+131072
+1.1414
+1.14803
+1.16587
+1.17324
+1.21603
+1.13678
+1.16288
+1.13478
+1.09221
+1.14135
+
+8
+131072
+1.13296
+1.1189
+1.14775
+1.11496
+1.07338
+1.06153
+1.12064
+1.12438
+1.0793
+1.09597
+
+16
+131072
+1.0945
+1.06078
+1.11371
+1.11125
+1.0554
+1.13705
+1.06389
+1.06027
+1.09418
+1.10077
+
+32
+131072
+1.03999
+1.04701
+1.05632
+1.04961
+1.0188
+1.0737
+1.0087
+1.07047
+1.0582
+1.0615
+
+64
+131072
+1.02293
+1.03654
+1.00379
+1.02198
+0.993805
+1.04993
+1.03484
+1.01373
+0.977299
+1.06042
+
+128
+131072
+0.973654
+1.01262
+0.96895
+0.97503
+0.968534
+0.957014
+1.02636
+0.969968
+1.00614
+0.974496
+
+256
+131072
+0.928813
+0.979427
+0.927546
+0.976742
+0.979722
+0.956326
+0.952522
+0.934525
+0.958157
+0.994426
+
+512
+131072
+0.658064
+0.649926
+0.652378
+0.618554
+0.620515
+0.619587
+0.639046
+0.620851
+0.615994
+0.649075
+
+1024
+131072
+0.632733
+0.635392
+0.632822
+0.632598
+0.601674
+0.625366
+0.636608
+0.633094
+0.598374
+0.600672
+
+2048
+131072
+0.626832
+0.591558
+0.617501
+0.5888
+0.615779
+0.590659
+0.592314
+0.585795
+0.58321
+0.588464
+
+4096
+131072
+0.590429
+0.586579
+0.583642
+0.585002
+0.594182
+0.589965
+0.584106
+0.587728
+0.584714
+0.586534
+
+8192
+131072
+0.595222
+0.587562
+0.584317
+0.592064
+0.589811
+0.622352
+0.623914
+0.599354
+0.582941
+0.58496
+
+16384
+131072
+0.615174
+0.61761
+0.605242
+0.634563
+0.605197
+0.62193
+0.633674
+0.610477
+0.631469
+0.606717
+
+32768
+131072
+0.632653
+0.608157
+0.607312
+0.601654
+0.600074
+0.632742
+0.602461
+0.605043
+0.60505
+0.604422
+
+65536
+131072
+0.551066
+0.606826
+0.54889
+0.634045
+0.604829
+0.607264
+0.607318
+0.556093
+0.636061
+0.608762
+
+1
+262144
+1.51562
+1.56265
+1.51672
+1.56759
+1.52733
+1.51844
+1.52163
+1.52318
+1.53147
+1.52954
+
+2
+262144
+1.55889
+1.58907
+1.50396
+1.55036
+1.54245
+1.58111
+1.57802
+1.52454
+1.50194
+1.52574
+
+4
+262144
+1.46662
+1.65235
+1.57787
+1.48642
+1.54629
+1.49829
+1.43584
+1.44935
+1.60438
+1.53074
+
+8
+262144
+1.39615
+1.4218
+1.41845
+1.43188
+1.38301
+1.46247
+1.38349
+1.40045
+1.41362
+1.4
+
+16
+262144
+1.34513
+1.35294
+1.40469
+1.28832
+1.36253
+1.36377
+1.34342
+1.3943
+1.41291
+1.3318
+
+32
+262144
+1.35544
+1.31302
+1.28703
+1.30173
+1.25296
+1.29341
+1.3564
+1.30273
+1.30997
+1.33627
+
+64
+262144
+1.2167
+1.27387
+1.227
+1.2341
+1.24977
+1.21647
+1.28864
+1.24472
+1.21202
+1.20867
+
+128
+262144
+1.1703
+1.17166
+1.16624
+1.17454
+1.16843
+1.16606
+1.16983
+1.16565
+1.16356
+1.15275
+
+256
+262144
+1.09448
+1.01244
+1.09384
+1.09228
+1.093
+1.09206
+1.14341
+1.17055
+1.10146
+1.09855
+
+512
+262144
+1.03277
+1.03736
+1.06771
+1.02782
+1.03649
+1.06295
+1.06056
+1.03444
+1.0223
+1.05689
+
+1024
+262144
+1.00137
+1.04748
+0.69536
+0.685453
+1.00154
+0.725197
+1.05828
+0.68992
+0.699494
+0.726931
+
+2048
+262144
+0.705267
+0.70648
+0.609894
+0.663619
+0.689869
+0.662592
+0.666531
+0.695968
+0.693584
+0.662864
+
+4096
+262144
+0.657203
+0.649987
+0.687763
+0.687568
+0.653485
+0.68311
+0.655085
+0.687626
+0.650787
+0.68248
+
+8192
+262144
+0.631562
+0.634384
+0.638192
+0.64672
+0.674877
+0.67512
+0.680694
+0.641424
+0.634179
+0.640816
+
+16384
+262144
+0.662067
+0.661824
+0.699632
+0.688659
+0.656054
+0.694189
+0.659763
+0.662221
+0.704582
+0.660851
+
+32768
+262144
+0.719549
+0.717328
+0.744157
+0.716582
+0.664883
+0.712787
+0.72049
+0.707875
+0.71327
+0.713904
+
+65536
+262144
+0.766218
+0.73281
+0.730762
+0.767184
+0.76591
+0.769872
+0.734269
+0.729606
+0.731485
+0.681555
+
+131072
+262144
+0.914966
+0.918147
+0.909651
+0.962672
+0.910746
+0.840384
+0.963651
+0.984976
+0.912234
+0.96233
+
+1
+524288
+2.37754
+2.33834
+2.37805
+2.32995
+2.37355
+2.33338
+2.37764
+2.32842
+2.3335
+2.32453
+
+2
+524288
+2.34292
+2.39288
+2.31989
+2.34868
+2.37186
+2.34631
+2.35358
+2.39193
+2.3157
+2.3494
+
+4
+524288
+2.26276
+2.33559
+2.28386
+2.29889
+2.30112
+2.2217
+2.24218
+2.26186
+2.17069
+2.19213
+
+8
+524288
+2.15746
+2.17522
+2.07317
+2.00967
+2.11597
+2.11395
+2.18649
+2.08898
+2.16576
+2.10782
+
+16
+524288
+1.97754
+1.95026
+1.93736
+1.99539
+1.95298
+1.96174
+2.11756
+2.01363
+2.07509
+2.01002
+
+32
+524288
+1.78337
+1.89726
+1.90768
+1.81254
+1.84917
+1.83871
+1.86736
+1.88495
+1.88509
+1.89845
+
+64
+524288
+1.78051
+1.72962
+1.78512
+1.72184
+1.71381
+1.69749
+1.73415
+1.79989
+1.68943
+1.73017
+
+128
+524288
+1.61761
+1.65028
+1.58389
+1.60425
+1.66639
+1.62329
+1.60588
+1.62405
+1.63067
+1.58391
+
+256
+524288
+1.41801
+1.49141
+1.49474
+1.52193
+1.48637
+1.54217
+1.49638
+1.52592
+1.49736
+1.56871
+
+512
+524288
+1.40737
+1.367
+1.35387
+1.351
+1.37043
+1.36462
+1.38958
+1.368
+1.34342
+1.36721
+
+1024
+524288
+1.24523
+1.25746
+1.2873
+1.21784
+1.25569
+1.22915
+1.28971
+1.25139
+1.29466
+1.24146
+
+2048
+524288
+0.859869
+0.800624
+1.18119
+1.2148
+1.18284
+0.859658
+1.17766
+1.17927
+0.861827
+0.85815
+
+4096
+524288
+0.85016
+0.858234
+0.816144
+0.816042
+0.817338
+0.80449
+0.819459
+0.858394
+0.82057
+0.811402
+
+8192
+524288
+0.782544
+0.817917
+0.781344
+0.778141
+0.782586
+0.779338
+0.819302
+0.782278
+0.780323
+0.818627
+
+16384
+524288
+0.818323
+0.780294
+0.780515
+0.77663
+0.820646
+0.818736
+0.777254
+0.823562
+0.815344
+0.80151
+
+32768
+524288
+0.830768
+0.826304
+0.819891
+0.825194
+0.823344
+0.826189
+0.824048
+0.822064
+0.767104
+0.823379
+
+65536
+524288
+0.981658
+0.97665
+0.868339
+0.861894
+0.932016
+0.941331
+0.929651
+0.938477
+0.923792
+0.962931
+
+131072
+524288
+1.24646
+1.25143
+1.20474
+1.12938
+1.2006
+1.20248
+1.20324
+1.19632
+1.13046
+1.12459
+
+262144
+524288
+1.27712
+1.28227
+1.37244
+1.37786
+1.45033
+1.37885
+1.28463
+1.37426
+1.37627
+1.38361
+
+1
+1048576
+4.23713
+4.18277
+4.18548
+4.18925
+4.24022
+4.18618
+4.18524
+4.1857
+4.18597
+4.24401
+
+2
+1048576
+4.08496
+4.35177
+4.11176
+4.2604
+4.08276
+4.10206
+4.04997
+4.22998
+4.15179
+4.20245
+
+4
+1048576
+3.96308
+3.78992
+4.1114
+4.24833
+3.78993
+3.80726
+3.74357
+3.75032
+4.0845
+4.081
+
+8
+1048576
+3.69334
+4.06874
+3.61339
+3.70049
+3.6112
+3.67794
+3.67192
+3.66327
+3.68314
+3.59138
+
+16
+1048576
+3.38383
+3.37261
+3.39038
+3.45267
+3.40499
+3.35372
+3.47856
+3.26243
+3.44345
+3.44937
+
+32
+1048576
+3.05013
+3.08641
+3.0986
+3.13261
+3.05132
+3.14056
+3.16015
+3.2462
+3.05775
+3.05436
+
+64
+1048576
+2.84998
+2.96489
+2.79444
+2.76932
+2.88512
+2.84571
+2.8216
+2.83671
+2.89302
+2.88159
+
+128
+1048576
+2.58056
+2.60435
+2.52661
+2.57435
+2.60189
+2.56667
+2.63639
+2.61904
+2.64331
+2.57392
+
+256
+1048576
+2.43
+2.3849
+2.41215
+2.38617
+2.38383
+2.38866
+2.37237
+2.33587
+2.35512
+2.44972
+
+512
+1048576
+2.14403
+2.22297
+2.12648
+2.13917
+2.13962
+2.12367
+2.13732
+2.29294
+2.11607
+2.11301
+
+1024
+1048576
+1.92993
+1.95242
+1.90321
+1.95559
+1.97723
+1.94359
+1.90985
+1.91965
+1.89793
+1.8965
+
+2048
+1048576
+1.7173
+1.65274
+1.6786
+1.67718
+1.66029
+1.66762
+1.64308
+1.718
+1.69199
+1.72885
+
+4096
+1048576
+1.51944
+1.50582
+1.51728
+1.57498
+1.51586
+1.51866
+1.25816
+1.51737
+1.51621
+1.58972
+
+8192
+1048576
+1.11949
+1.12381
+1.05765
+1.10781
+1.11612
+1.11586
+1.12144
+1.11407
+1.1225
+1.12254
+
+16384
+1048576
+1.04341
+1.04777
+1.05186
+1.04843
+1.00722
+1.04944
+1.09328
+1.0501
+1.0882
+1.09195
+
+32768
+1048576
+0.996438
+1.05828
+1.05553
+1.00039
+1.10305
+1.05015
+1.01315
+1.0561
+1.05046
+1.05406
+
+65536
+1048576
+1.19938
+1.15673
+1.15531
+1.15365
+1.21196
+1.19421
+1.15245
+1.10192
+1.16126
+1.20774
+
+131072
+1048576
+1.63191
+1.48635
+1.62228
+1.50622
+1.49314
+1.62784
+1.62732
+1.49612
+1.55
+1.49785
+
+262144
+1048576
+1.95584
+1.96051
+1.85222
+1.84866
+1.86217
+1.94402
+1.97036
+1.85584
+2.02274
+1.85431
+
+524288
+1048576
+2.02542
+1.86041
+1.94713
+1.85887
+1.84291
+1.85707
+1.94078
+1.87179
+1.9545
+1.84302
+
+1
+2097152
+7.82457
+7.81171
+7.86544
+7.78523
+7.78873
+7.89285
+7.82428
+7.82037
+7.92925
+7.92484
+
+2
+2097152
+7.93775
+7.74761
+8.4901
+7.94523
+7.99686
+7.69539
+8.33345
+7.7136
+7.74161
+7.94068
+
+4
+2097152
+7.53052
+7.51318
+7.99109
+7.59563
+7.22563
+7.62421
+7.89466
+7.42342
+7.56767
+7.55446
+
+8
+2097152
+7.26476
+6.62477
+7.13471
+7.07691
+6.7675
+7.06239
+7.05936
+7.229
+7.07009
+7.36113
+
+16
+2097152
+6.79304
+6.4499
+6.53398
+6.44042
+6.81626
+6.34343
+6.70886
+6.45685
+6.53007
+6.76172
+
+32
+2097152
+6.37077
+6.10781
+5.60211
+6.10151
+5.87748
+6.04217
+6.09211
+5.7338
+5.96246
+5.9589
+
+64
+2097152
+5.48294
+5.40681
+5.55327
+5.36047
+5.44063
+5.37926
+5.33048
+5.30302
+5.27948
+5.57164
+
+128
+2097152
+4.91341
+4.82253
+4.91357
+4.85463
+4.99252
+4.84595
+4.89483
+4.86609
+4.82395
+4.91521
+
+256
+2097152
+4.39888
+4.38871
+4.40066
+4.46075
+4.44091
+4.45037
+4.35541
+4.32402
+4.44083
+4.27588
+
+512
+2097152
+3.90238
+3.96979
+3.83025
+3.92484
+4.15513
+3.94068
+3.96346
+3.94367
+4.07684
+3.97583
+
+1024
+2097152
+3.583
+3.60064
+3.56897
+3.49954
+3.60805
+3.54986
+3.55695
+3.39933
+3.60687
+3.42637
+
+2048
+2097152
+2.99572
+2.99986
+3.06744
+3.05756
+2.96775
+2.96294
+3.08974
+2.97367
+3.16882
+3.07447
+
+4096
+2097152
+2.46259
+2.59438
+2.68441
+2.5464
+2.58633
+2.45476
+2.65514
+2.47255
+2.53408
+2.57106
+
+8192
+2097152
+2.28359
+2.27316
+2.27091
+2.2731
+2.27969
+2.37392
+2.37809
+2.28028
+2.27299
+2.25263
+
+16384
+2097152
+1.75293
+1.77328
+1.77762
+1.86065
+1.76727
+1.86988
+1.85775
+1.76586
+1.76301
+1.76916
+
+32768
+2097152
+1.5624
+1.64902
+1.65629
+1.64874
+1.5537
+1.63269
+1.64319
+1.54757
+1.65036
+1.64393
+
+65536
+2097152
+1.74808
+1.59216
+1.74626
+1.58566
+1.57373
+1.66884
+1.73759
+1.59249
+1.74369
+1.77392
+
+131072
+2097152
+2.01034
+2.00461
+1.99712
+1.99641
+2.0811
+2.102
+2.08584
+2.1862
+1.98985
+2.18749
+
+262144
+2097152
+2.58071
+2.58612
+2.58457
+2.60638
+2.58546
+2.69095
+2.6954
+2.57469
+2.61129
+2.57648
+
+524288
+2097152
+3.00904
+3.00166
+3.00072
+3.1301
+3.00732
+3.12119
+3.21189
+3.00036
+3.21849
+3.10583
+
+1048576
+2097152
+3.00305
+3.005
+3.00863
+3.01542
+3.11746
+3.008
+3.00464
+3.11911
+2.99281
+3.01003
+
+1
+4194304
+16.2004
+16.2036
+16.1988
+16.2983
+16.2034
+16.1784
+16.1942
+16.2115
+16.2029
+16.1946
+
+2
+4194304
+16.0555
+15.428
+15.7713
+16.7466
+17.5095
+15.9664
+15.5947
+15.5894
+15.7719
+16.8719
+
+4
+4194304
+14.5071
+15.9221
+15.6302
+14.4429
+15.2037
+14.5961
+15.9333
+14.564
+14.6867
+16.584
+
+8
+4194304
+14.336
+14.5629
+13.8143
+13.8588
+13.8601
+13.7751
+15.0648
+13.9188
+14.4273
+14.052
+
+16
+4194304
+13.1015
+12.9909
+13.2031
+13.9973
+12.5373
+12.7598
+12.7124
+12.8272
+13.6208
+12.918
+
+32
+4194304
+11.812
+11.532
+11.9125
+11.7243
+11.7809
+11.9687
+11.6898
+12.1344
+11.802
+11.6514
+
+64
+4194304
+10.5532
+10.9795
+11.2427
+10.8029
+10.9985
+10.6914
+10.7078
+10.785
+10.657
+10.6905
+
+128
+4194304
+10.1566
+10.0228
+9.96485
+9.63166
+9.70817
+9.74452
+9.8265
+9.72844
+10.1865
+9.96443
+
+256
+4194304
+8.80025
+8.88661
+9.04486
+8.92292
+8.94499
+9.00693
+8.74875
+8.82528
+8.70425
+8.76583
+
+512
+4194304
+7.81366
+8.04317
+7.9085
+7.93716
+7.79268
+7.99935
+7.75329
+7.72845
+7.81999
+7.82039
+
+1024
+4194304
+7.0156
+7.20195
+7.01832
+7.14
+7.01519
+6.96499
+7.06924
+7.17665
+6.91599
+7.18746
+
+2048
+4194304
+6.14587
+6.12941
+6.10246
+6.26086
+6.17184
+6.16422
+6.11372
+6.13197
+6.13296
+6.10715
+
+4096
+4194304
+5.20095
+5.27924
+5.25227
+5.2497
+5.26681
+5.2017
+5.26095
+5.37196
+5.23014
+5.19457
+
+8192
+4194304
+4.22196
+4.23198
+4.19709
+4.19231
+4.22924
+4.25986
+4.22685
+4.22947
+4.23604
+4.22025
+
+16384
+4194304
+3.59948
+3.70845
+3.60361
+3.60176
+3.69854
+3.73322
+3.70028
+3.59965
+3.67244
+3.60551
+
+32768
+4194304
+2.95082
+2.93182
+2.9449
+2.94936
+3.02948
+2.94096
+2.94603
+2.93044
+3.0298
+2.93653
+
+65536
+4194304
+2.77497
+2.69455
+2.71418
+2.71675
+2.71785
+2.71224
+2.76437
+2.71285
+2.70537
+2.70644
+
+131072
+4194304
+3.04512
+2.94708
+2.96009
+2.95702
+2.9612
+2.96032
+2.94991
+3.17978
+2.96117
+2.94023
+
+262144
+4194304
+3.59666
+3.69792
+3.60334
+3.59451
+3.58991
+3.71138
+3.70275
+3.59982
+3.59512
+3.64749
+
+524288
+4194304
+4.41745
+4.42345
+4.44052
+4.44432
+4.44792
+4.45011
+4.4333
+4.44408
+4.43196
+4.4335
+
+1048576
+4194304
+5.29312
+5.3069
+5.30806
+5.30041
+5.31627
+5.44005
+5.3109
+5.3097
+5.27909
+5.3101
+
+1
+8388608
+32.5206
+32.5011
+32.5416
+32.5189
+32.5324
+32.5138
+32.586
+32.5073
+32.5186
+32.485
+
+2
+8388608
+31.6939
+32.3629
+32.0459
+31.9607
+32.7551
+32.4563
+32.3611
+31.9912
+32.7962
+33.0787
+
+4
+8388608
+32.0323
+32.5375
+32.1766
+32.2848
+31.7457
+31.2692
+32.3143
+30.5743
+32.4175
+32.0275
+
+8
+8388608
+28.842
+30.3407
+31.3853
+30.4318
+29.6979
+29.5015
+29.1074
+28.2573
+29.5331
+31.0126
+
+16
+8388608
+26.7505
+28.1372
+27.3972
+26.9037
+26.8051
+26.3449
+27.0424
+28.2358
+28.1543
+26.5448
+
+32
+8388608
+25.4102
+24.9963
+24.5857
+25.2916
+24.8808
+24.4725
+24.9429
+24.7445
+24.3122
+24.8181
+
+64
+8388608
+22.1869
+23.0917
+22.5867
+22.3483
+22.5085
+21.8441
+22.82
+22.4974
+22.5875
+21.7623
+
+128
+8388608
+19.84
+19.9843
+20.0696
+21.032
+20.2344
+20.2946
+20.4461
+20.2749
+21.2605
+20.0786
+
+256
+8388608
+17.9135
+17.9339
+18.0638
+17.9143
+18.1168
+17.9671
+18.1731
+18.3399
+18.0187
+17.9009
+
+512
+8388608
+16.096
+16.2255
+16.281
+16.041
+16.1777
+16.3088
+16.1945
+16.0642
+16.6337
+16.1911
+
+1024
+8388608
+14.5406
+14.3662
+14.2633
+14.5106
+14.3412
+14.3884
+14.3645
+14.1832
+14.39
+14.2948
+
+2048
+8388608
+12.9615
+12.9173
+12.9443
+12.6716
+13.0849
+13.2262
+13.4809
+12.7417
+12.7996
+12.8756
+
+4096
+8388608
+11.287
+11.4014
+11.1639
+11.17
+11.4182
+11.3035
+11.2686
+11.3653
+11.4352
+11.2204
+
+8192
+8388608
+9.48721
+9.50345
+9.50705
+9.47009
+9.49821
+9.52549
+9.56122
+9.52723
+9.50167
+9.51403
+
+16384
+8388608
+7.59339
+7.52804
+7.50335
+7.53515
+7.48131
+7.52125
+7.53701
+7.5877
+7.5122
+7.52484
+
+32768
+8388608
+6.27441
+6.25433
+6.23019
+6.25098
+6.25111
+6.27456
+6.24946
+6.23439
+6.24578
+6.27607
+
+65536
+8388608
+5.21504
+5.22599
+5.22529
+5.2931
+5.28618
+5.21853
+5.24173
+5.23421
+5.22281
+5.23005
+
+131072
+8388608
+5.03452
+4.93743
+4.95604
+4.96118
+5.03173
+4.96273
+4.95794
+4.95291
+4.9531
+4.94583
+
+262144
+8388608
+5.31096
+5.31814
+5.32628
+5.31704
+5.30332
+5.30141
+5.30613
+5.31
+5.29993
+5.32052
+
+524288
+8388608
+6.26199
+6.35629
+6.25192
+6.24493
+6.25108
+6.2755
+6.25341
+6.38418
+6.27153
+6.25495
+
+1048576
+8388608
+7.9612
+7.94497
+7.9682
+7.96501
+7.9809
+8.08901
+7.96309
+7.97016
+7.95851
+8.07108
+
+1
+16777216
+71.272
+71.2819
+71.2512
+71.258
+71.4031
+71.388
+71.3705
+71.2293
+71.2887
+71.3813
+
+2
+16777216
+69.706
+69.5716
+71.5957
+69.2868
+70.8412
+69.7521
+74.5735
+70.081
+76.1708
+72.5632
+
+4
+16777216
+64.2825
+69.6887
+65.0875
+69.128
+65.6231
+70.0996
+69.7857
+70.917
+65.2048
+68.0743
+
+8
+16777216
+62.1935
+68.8012
+61.8194
+62.165
+64.3561
+62.0202
+63.4572
+62.8457
+61.4212
+62.5208
+
+16
+16777216
+57.1198
+57.4867
+58.9398
+56.7153
+56.5891
+56.3092
+58.186
+58.3028
+57.972
+56.5155
+
+32
+16777216
+52.2661
+53.5783
+54.3358
+55.2854
+52.1433
+53.4766
+53.7702
+55.2562
+53.7881
+52.5759
+
+64
+16777216
+48.6544
+47.4161
+48.9008
+48.9419
+48.0777
+49.0254
+47.9403
+48.0647
+49.4392
+48.6384
+
+128
+16777216
+43.4311
+43.7655
+44.7589
+43.4178
+43.757
+44.0965
+43.6366
+43.831
+43.7714
+43.5885
+
+256
+16777216
+39.4065
+38.9748
+39.573
+40.9931
+41.1962
+39.2693
+40.8946
+38.5671
+40.856
+39.1506
+
+512
+16777216
+34.6819
+34.9241
+34.6867
+34.7623
+35.2743
+35.1503
+35.0616
+35.3393
+35.3893
+35.2845
+
+1024
+16777216
+32.5975
+32.8766
+31.0503
+31.3656
+31.3495
+32.9933
+31.2618
+31.2319
+31.4958
+30.9894
+
+2048
+16777216
+28.7997
+27.5592
+27.6848
+27.7249
+27.8522
+27.4986
+28.7608
+27.6983
+27.5214
+27.9915
+
+4096
+16777216
+25.3674
+24.8319
+25.5806
+24.653
+24.8051
+24.8472
+25.6173
+24.6048
+24.7475
+24.6594
+
+8192
+16777216
+21.4672
+21.5997
+21.4915
+21.6558
+21.9464
+21.4603
+21.4268
+21.4843
+21.6078
+21.3635
+
+16384
+16777216
+18.3544
+18.323
+18.4246
+18.1211
+18.3315
+18.1213
+18.4994
+18.2854
+18.242
+18.2687
+
+32768
+16777216
+14.4469
+14.4208
+14.2653
+14.3288
+14.3436
+14.3007
+14.3428
+14.1559
+14.3551
+14.4046
+
+65536
+16777216
+11.8016
+11.8352
+11.9256
+11.7836
+11.7938
+11.7939
+11.8113
+11.8028
+12.5675
+11.8576
+
+131072
+16777216
+10.254
+10.2422
+10.355
+10.2532
+10.238
+10.2555
+10.2353
+10.2325
+10.2551
+10.2781
+
+262144
+16777216
+9.61597
+9.58581
+9.77823
+9.63328
+9.56158
+9.57056
+9.59746
+9.59889
+9.5749
+9.60424
+
+524288
+16777216
+9.97628
+10.1052
+9.99041
+10.1471
+9.9695
+10.0988
+9.9813
+10.0956
+10.0515
+9.95378
+
+1048576
+16777216
+11.8251
+12.0578
+11.8267
+11.8414
+11.8548
+11.8158
+11.85
+11.8343
+11.8284
+11.843
+
+1
+33554432
+146.588
+146.738
+146.555
+146.723
+146.686
+146.625
+146.739
+146.716
+146.691
+146.536
+
+2
+33554432
+144.543
+148.67
+146.396
+143.521
+150.944
+144.587
+144.415
+147.054
+148.868
+147.804
+
+4
+33554432
+143.519
+143.079
+143.937
+149.557
+144.027
+143.441
+143.712
+153.449
+140.809
+143.895
+
+8
+33554432
+129.948
+137.962
+133.884
+129.981
+133.521
+142.261
+128.826
+133.001
+139.042
+133.884
+
+16
+33554432
+124.364
+125.289
+123.431
+122.649
+123.481
+123.977
+123.586
+123.788
+125.177
+124.839
+
+32
+33554432
+114.298
+116.576
+114.865
+117.186
+115.256
+115.436
+112.641
+115.778
+112.603
+117.982
+
+64
+33554432
+103.587
+104.495
+104.398
+102.655
+103.131
+103.987
+106.478
+104.025
+107.665
+105.333
+
+128
+33554432
+95.7936
+96.6222
+97.0079
+95.8782
+95.5656
+96.8145
+94.8814
+96.2684
+95.7474
+95.0743
+
+256
+33554432
+85.9801
+85.5699
+86.2771
+85.3652
+85.7405
+87.3712
+86.3643
+85.7194
+84.9492
+87.6332
+
+512
+33554432
+77.9097
+78.0295
+76.9255
+77.0803
+77.6903
+78.3221
+77.3333
+77.4915
+77.322
+76.8426
+
+1024
+33554432
+68.1119
+69.0862
+68.5777
+68.4819
+68.4486
+68.7622
+69.2311
+68.4552
+67.72
+68.8085
+
+2048
+33554432
+60.3819
+60.9969
+61.4754
+60.725
+60.535
+61.1566
+61.225
+61.1044
+61.081
+60.6079
+
+4096
+33554432
+53.4112
+53.477
+54.1538
+53.5739
+53.5254
+53.9051
+53.6847
+54.1196
+53.3184
+53.5885
+
+8192
+33554432
+46.9253
+47.1605
+47.0148
+46.8677
+47.4458
+46.9877
+47.0025
+47.0271
+47.2234
+47.407
+
+16384
+33554432
+40.3866
+40.3567
+40.4604
+40.4801
+40.4371
+40.4879
+40.3719
+40.4491
+40.5983
+40.4142
+
+32768
+33554432
+34.1308
+33.6913
+34.9235
+33.6876
+33.6811
+34.3477
+33.721
+33.738
+33.7474
+34.5229
+
+65536
+33554432
+27.0228
+26.9726
+26.931
+26.8421
+27.0731
+27.097
+27.0326
+27.4715
+27.0803
+26.941
+
+131072
+33554432
+22.6374
+22.6432
+22.5982
+22.6564
+22.6345
+22.6438
+22.6376
+22.6166
+22.6242
+22.6284
+
+262144
+33554432
+19.7352
+20.1881
+19.6082
+19.6621
+19.6868
+19.6649
+19.6266
+19.6495
+19.659
+19.6515
+
+524288
+33554432
+18.0604
+17.9823
+18.2135
+17.9867
+18.0027
+17.9845
+18.2728
+18.0633
+17.9813
+18.0714
+
+1048576
+33554432
+18.8319
+18.7825
+18.7679
+18.8377
+18.7807
+18.7827
+18.7827
+18.8006
+18.8784
+18.8147
+
+1
+67108864
+322.654
+322.632
+322.682
+323.03
+322.514
+322.804
+322.699
+322.635
+322.518
+322.456
+
+2
+67108864
+326.97
+331.379
+337.513
+318.117
+319.579
+339.142
+320.819
+315.009
+316.477
+316.912
+
+4
+67108864
+323.075
+331.93
+320.331
+300.605
+307.544
+311.924
+299.501
+301.969
+316.496
+321.233
+
+8
+67108864
+286.794
+288.988
+294.813
+289.168
+293.958
+283.441
+291.536
+290.864
+286.08
+285.871
+
+16
+67108864
+274.134
+271.23
+270.97
+270.839
+272.208
+275.092
+266.658
+274.223
+275.797
+279.204
+
+32
+67108864
+253.059
+246.798
+247.109
+253.467
+247.693
+248.479
+249.244
+256.478
+245.711
+256.486
+
+64
+67108864
+229.646
+229.587
+229.895
+228.995
+233.617
+232.712
+229.195
+228.249
+232.001
+231.659
+
+128
+67108864
+206.126
+208.308
+208.918
+209.967
+210.051
+209.185
+209.785
+206.272
+212.784
+209.258
+
+256
+67108864
+190.457
+191.969
+190.527
+188.575
+189.506
+191.022
+191.323
+189.008
+189.832
+188.887
+
+512
+67108864
+171.129
+172.339
+171.64
+169.912
+170.797
+170.28
+170.225
+170.073
+169.282
+168.594
+
+1024
+67108864
+153.975
+152.337
+153.676
+152.571
+153.153
+152.705
+153.739
+152.851
+154.714
+152.107
+
+2048
+67108864
+137.189
+135.903
+136.981
+135.974
+135.742
+135.624
+136.141
+135.81
+135.859
+135.098
+
+4096
+67108864
+120.626
+120.168
+121.298
+120.869
+120.134
+120.755
+119.761
+120.311
+119.926
+120.201
+
+8192
+67108864
+106.319
+105.345
+105.954
+105.887
+106.355
+105.83
+106.137
+105.177
+106.078
+105.844
+
+16384
+67108864
+92.8745
+93.121
+92.9213
+93.3085
+93.1809
+92.9761
+93.1606
+93.289
+93.1969
+92.7067
+
+32768
+67108864
+79.6865
+79.6417
+79.6348
+79.7079
+79.9221
+79.6035
+79.6191
+79.5856
+79.5617
+79.5469
+
+65536
+67108864
+66.0064
+66.2124
+66.0804
+66.053
+66.0783
+66.2135
+65.9873
+66.0269
+66.7361
+66.3751
+
+131072
+67108864
+50.9357
+51.0303
+51.1358
+50.8921
+50.93
+50.9334
+50.8908
+50.9239
+50.8862
+51.0435
+
+262144
+67108864
+41.9888
+42.1813
+41.9606
+41.997
+43.6648
+41.9658
+41.9512
+41.9044
+41.9628
+41.9026
+
+524288
+67108864
+36.9354
+36.7045
+36.9468
+36.5329
+36.6374
+36.6438
+38.045
+36.6402
+36.6248
+36.5777
+
+1048576
+67108864
+34.0515
+34.1938
+34.0409
+34.3771
+34.3966
+34.9418
+34.046
+34.0044
+34.1825
+34.2906
+
+1
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70262
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.74573
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72457
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73947
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73923
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72528
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72226
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70462
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71282
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73395
+
+2
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73984
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72528
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72916
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72767
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71885
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7328
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72112
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72364
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72306
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.75162
+
+4
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71907
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72702
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.75092
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70222
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72565
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.74087
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72955
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72193
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7313
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7185
+
+8
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73223
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.69877
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73322
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72736
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70937
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72888
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71628
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.85165
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71426
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.75195
+
+16
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7469
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.74962
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.74884
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.75156
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.76097
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.77372
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.75684
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72457
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.77838
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.76292
+
+32
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73161
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.77649
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.78405
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7577
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72954
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71074
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7662
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71712
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7676
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71628
+
+64
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70244
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.75346
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70758
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.74332
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.69789
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71325
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72725
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7704
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.84584
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73614
+
+128
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.75604
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.82876
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72725
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73083
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72012
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.78415
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.75596
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7275
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.80244
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.77596
+
+256
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.76446
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.79772
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70866
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.77751
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71288
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71642
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73972
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72591
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.98532
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7781
+
+512
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70974
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.76622
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72824
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71365
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72828
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.69116
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.74135
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73351
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.747
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72817
+
+1024
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71212
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73835
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72669
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73094
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71895
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.74976
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72839
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73338
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72039
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71707
+
+2048
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72156
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70489
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71828
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72646
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72361
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.74304
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.78541
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7652
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71924
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.76037
+
+4096
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72174
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71584
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73098
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72266
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73921
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72072
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.74389
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71399
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70945
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.69845
+
+8192
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73005
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.75933
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70256
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71284
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.76991
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.74008
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70566
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.85468
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.79905
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72706
+
+16384
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72558
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.74094
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.70735
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7446
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7219
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72579
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.74195
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7879
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7034
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.77388
+
+32768
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.71631
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.77874
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.72905
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.75431
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.73249
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.744
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.80905
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7309
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7478
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.7394
+
+65536
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.79919
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.81767
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.82063
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.81751
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.81977
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.82647
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.83177
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.82249
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.75802
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.8054
+
+131072
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.81951
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.80879
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.88658
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.81436
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.82196
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.82253
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.80721
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.87411
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.80147
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.80517
+
+262144
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+2.01496
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+2.02212
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+2.01999
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+2.02438
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+2.02549
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+2.01461
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.99407
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+2.02294
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.9409
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+2.0488
+
+524288
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+2.00036
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.90812
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.89496
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+2.05271
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.96955
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+2.00426
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.90253
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.88977
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.90089
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.90339
+
+1048576
+134217728
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.89257
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.86347
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.96789
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.87696
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.96297
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.90989
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.89305
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+2.00803
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.94092
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+CUDA error (alloc keysB_d): out of memory
+1.96366

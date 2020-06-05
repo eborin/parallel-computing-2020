@@ -1,0 +1,5377 @@
+
+
+1
+32768
+0.439357
+0.441421
+0.444275
+0.444166
+0.445501
+0.439322
+0.445126
+0.440899
+0.440195
+0.435178
+
+2
+32768
+0.443302
+0.440515
+0.441245
+0.441872
+0.44152
+0.432422
+0.437651
+0.440486
+0.438934
+0.435088
+
+4
+32768
+0.439789
+0.42569
+0.435747
+0.43648
+0.435302
+0.426778
+0.431286
+0.431078
+0.431347
+0.428538
+
+8
+32768
+0.432394
+0.420838
+0.423878
+0.423421
+0.427267
+0.427219
+0.416717
+0.425251
+0.428365
+0.417549
+
+16
+32768
+0.423766
+0.423859
+0.42503
+0.425565
+0.420509
+0.422822
+0.419296
+0.414838
+0.423981
+0.42927
+
+32
+32768
+0.418406
+0.416813
+0.412586
+0.412451
+0.42377
+0.417421
+0.417155
+0.409715
+0.418186
+0.416854
+
+64
+32768
+0.413222
+0.402563
+0.409942
+0.412477
+0.410928
+0.404176
+0.412566
+0.415699
+0.413322
+0.405904
+
+128
+32768
+0.395843
+0.41832
+0.416006
+0.40913
+0.407574
+0.404157
+0.401994
+0.402579
+0.404928
+0.404992
+
+256
+32768
+0.404419
+0.400659
+0.396406
+0.398035
+0.398707
+0.402998
+0.396685
+0.397331
+0.40504
+0.401194
+
+512
+32768
+0.397478
+0.398544
+0.392573
+0.395402
+0.392371
+0.399341
+0.400586
+0.394784
+0.396778
+0.399686
+
+1024
+32768
+0.38281
+0.38224
+0.391645
+0.396346
+0.394227
+0.394176
+0.393014
+0.391206
+0.394515
+0.394912
+
+2048
+32768
+0.383066
+0.387789
+0.39249
+0.393174
+0.390592
+0.385174
+0.379072
+0.390768
+0.388874
+0.385408
+
+4096
+32768
+0.388314
+0.385645
+0.386544
+0.387366
+0.385885
+0.373414
+0.375475
+0.384061
+0.385555
+0.378854
+
+8192
+32768
+0.375696
+0.36055
+0.376128
+0.373392
+0.358445
+0.372534
+0.379744
+0.37545
+0.37345
+0.359283
+
+16384
+32768
+0.36921
+0.334592
+0.365926
+0.36383
+0.355827
+0.355184
+0.35663
+0.354842
+0.351843
+0.363699
+
+1
+65536
+0.785296
+0.759024
+0.794013
+0.778022
+0.759648
+0.788989
+0.786042
+0.781837
+0.780122
+0.782922
+
+2
+65536
+0.783434
+0.760502
+0.745907
+0.754928
+0.776326
+0.781475
+0.772602
+0.770419
+0.773267
+0.787437
+
+4
+65536
+0.783008
+0.76895
+0.738474
+0.74208
+0.761715
+0.76864
+0.765526
+0.767366
+0.765376
+0.733018
+
+8
+65536
+0.753779
+0.756186
+0.757069
+0.754112
+0.752429
+0.751206
+0.766045
+0.751789
+0.753331
+0.745632
+
+16
+65536
+0.735523
+0.737293
+1.01646
+0.717181
+0.738413
+0.715354
+0.722234
+0.739654
+0.722912
+0.743405
+
+32
+65536
+0.734458
+0.732973
+0.729699
+0.737046
+0.726125
+0.731606
+0.730051
+0.730509
+0.744266
+0.733725
+
+64
+65536
+0.71553
+0.724797
+0.724998
+0.730698
+0.727552
+0.72848
+0.717734
+0.726109
+0.73199
+0.699821
+
+128
+65536
+0.714915
+0.718474
+0.694666
+0.711878
+0.719264
+0.714214
+0.691942
+0.719693
+0.688176
+0.721632
+
+256
+65536
+0.710909
+0.709795
+0.715587
+0.711091
+0.708109
+0.71871
+0.713699
+0.684314
+0.703558
+0.714838
+
+512
+65536
+0.702486
+0.69441
+0.701152
+0.700346
+0.699946
+0.707901
+0.703629
+0.704022
+0.703597
+0.704202
+
+1024
+65536
+0.697754
+0.697549
+0.70633
+0.666112
+0.672403
+0.682493
+0.694285
+0.697402
+0.669565
+0.694051
+
+2048
+65536
+0.694595
+0.688557
+0.687661
+0.633213
+0.63328
+0.629386
+0.691296
+0.607104
+0.688294
+0.666429
+
+4096
+65536
+0.681446
+0.65887
+0.673718
+0.688874
+0.683581
+0.683763
+0.658214
+0.679491
+0.685261
+0.682006
+
+8192
+65536
+0.671866
+0.676826
+0.676221
+0.67664
+0.666205
+0.67968
+0.669466
+0.679226
+0.652493
+0.670003
+
+16384
+65536
+0.705293
+0.647174
+0.659462
+0.670442
+0.673626
+0.669818
+0.659587
+0.650272
+0.6568
+0.658096
+
+32768
+65536
+0.637594
+0.643354
+0.655162
+0.623856
+0.660198
+0.641008
+0.646762
+0.658973
+0.643987
+0.631501
+
+1
+131072
+0.997254
+0.996035
+0.993488
+1.00055
+0.998416
+0.99639
+0.998371
+0.997008
+0.998045
+0.998723
+
+2
+131072
+0.980595
+0.967222
+0.989309
+0.99753
+0.976339
+0.97399
+0.994394
+0.949696
+0.985741
+0.982496
+
+4
+131072
+0.930426
+0.944726
+0.931242
+0.965178
+0.962038
+0.957715
+0.96841
+0.927638
+0.932362
+0.953251
+
+8
+131072
+0.955987
+0.912989
+0.908096
+0.900662
+0.937648
+0.898186
+0.932906
+0.916554
+0.904262
+0.903478
+
+16
+131072
+0.902627
+0.894742
+0.87319
+0.885194
+0.892752
+0.893917
+0.882797
+0.887062
+0.884643
+0.889805
+
+32
+131072
+0.864045
+0.864147
+0.864317
+0.851664
+0.853728
+0.859658
+0.852454
+0.854739
+0.85783
+0.851962
+
+64
+131072
+0.828486
+0.815216
+0.83023
+0.834429
+0.830512
+0.814134
+0.832074
+0.839043
+0.831875
+0.838349
+
+128
+131072
+0.807062
+0.811078
+0.81345
+0.816774
+0.80953
+0.80903
+0.81657
+0.815027
+0.810032
+0.810038
+
+256
+131072
+0.80385
+0.800742
+0.802003
+0.80249
+0.802531
+0.803622
+0.81185
+0.802944
+0.804374
+0.801491
+
+512
+131072
+0.794349
+0.791802
+0.787094
+0.786477
+0.79937
+0.766986
+0.79319
+0.789578
+0.793219
+0.785802
+
+1024
+131072
+0.78496
+0.782787
+0.783434
+0.765158
+0.786314
+0.78928
+0.787626
+0.781309
+0.782512
+0.784294
+
+2048
+131072
+0.774442
+0.691478
+0.713725
+0.754608
+0.709462
+0.771328
+0.772294
+0.774371
+0.774198
+0.77295
+
+4096
+131072
+0.805722
+0.76536
+0.774166
+0.764749
+0.771018
+0.772272
+0.767712
+0.769219
+0.765155
+0.759078
+
+8192
+131072
+0.763158
+0.744547
+0.752611
+0.762675
+0.748947
+0.753702
+0.755744
+0.750445
+0.751651
+0.746877
+
+16384
+131072
+0.721341
+0.741398
+0.730752
+0.742355
+0.736883
+0.742278
+0.74064
+0.73289
+0.733485
+0.73425
+
+32768
+131072
+0.727453
+0.732333
+0.709814
+0.712621
+0.711117
+0.71279
+0.707168
+0.736957
+0.713226
+0.723498
+
+65536
+131072
+0.686781
+0.695283
+0.709462
+0.682435
+0.676074
+0.699904
+0.704362
+0.68487
+0.696362
+0.680368
+
+1
+262144
+1.50927
+1.51639
+1.51589
+1.51604
+1.51576
+1.51881
+1.51427
+1.51484
+1.51869
+1.5148
+
+2
+262144
+1.50728
+1.52029
+1.48729
+1.50823
+1.48804
+1.52071
+1.49358
+1.48541
+1.47899
+1.49152
+
+4
+262144
+1.43384
+1.51246
+1.4492
+1.42971
+1.49214
+1.4542
+1.45582
+1.45036
+1.50981
+1.45217
+
+8
+262144
+1.39098
+1.40415
+1.38667
+1.43417
+1.38623
+1.39775
+1.39057
+1.39676
+1.38567
+1.3951
+
+16
+262144
+1.33963
+1.33633
+1.35164
+1.33027
+1.33665
+1.34487
+1.34165
+1.32495
+1.30864
+1.35665
+
+32
+262144
+1.27931
+1.27828
+1.26667
+1.29613
+1.26293
+1.29546
+1.27404
+1.31176
+1.27548
+1.27128
+
+64
+262144
+1.23437
+1.23294
+1.23973
+1.24594
+1.22413
+1.231
+1.23747
+1.24268
+1.22394
+1.22261
+
+128
+262144
+1.19036
+1.18531
+1.18093
+1.1852
+1.18359
+1.1883
+1.18569
+1.19906
+1.19828
+1.18572
+
+256
+262144
+1.15392
+1.15226
+1.15159
+1.14857
+1.1583
+1.15115
+1.08208
+1.14765
+1.15882
+1.15249
+
+512
+262144
+1.13974
+1.06952
+1.06971
+1.1355
+1.14155
+1.13817
+1.06969
+1.06572
+1.14172
+1.13704
+
+1024
+262144
+1.12836
+1.12645
+1.10751
+1.1215
+1.13096
+1.06056
+1.12337
+1.05837
+1.0585
+1.12316
+
+2048
+262144
+1.10487
+1.048
+1.09773
+1.12162
+1.1177
+1.03919
+1.11128
+1.04475
+1.1142
+1.11184
+
+4096
+262144
+1.09244
+1.10612
+1.10868
+1.10209
+1.10283
+1.10528
+1.10394
+1.09858
+1.10707
+1.10322
+
+8192
+262144
+1.09706
+1.09352
+1.0956
+1.09141
+1.09427
+1.09332
+1.09477
+1.09973
+1.09499
+1.09506
+
+16384
+262144
+1.07435
+1.08083
+1.08003
+1.07842
+1.07639
+1.07328
+1.08369
+1.08331
+1.06788
+1.07629
+
+32768
+262144
+1.06654
+1.05959
+1.06722
+1.06523
+1.05664
+1.06231
+1.06928
+1.07051
+1.05063
+1.0579
+
+65536
+262144
+1.02389
+1.01162
+1.01898
+1.01027
+1.01531
+1.01565
+1.01995
+1.01733
+1.00556
+1.01285
+
+131072
+262144
+0.992371
+0.981328
+1.00356
+0.98273
+0.992403
+0.980749
+0.978995
+0.995536
+0.980806
+0.978118
+
+1
+524288
+2.32497
+2.32942
+2.32382
+2.32227
+2.32501
+2.33293
+2.32125
+2.31717
+2.31888
+2.31971
+
+2
+524288
+2.25347
+2.24258
+2.22671
+2.2604
+2.27759
+2.24228
+2.25493
+2.25112
+2.22828
+2.25344
+
+4
+524288
+2.19451
+2.19233
+2.15545
+2.21831
+2.16635
+2.17117
+2.1597
+2.13139
+2.1673
+2.13012
+
+8
+524288
+2.11066
+2.05911
+2.02467
+2.03097
+2.01711
+2.0131
+2.137
+2.02668
+2.04333
+2.02725
+
+16
+524288
+1.93033
+1.9142
+1.90552
+1.95226
+1.96876
+1.93439
+1.99597
+1.91613
+1.96402
+1.96115
+
+32
+524288
+1.80156
+1.89989
+1.80459
+1.82546
+1.81549
+1.798
+1.82018
+1.81639
+1.81912
+1.84443
+
+64
+524288
+1.71149
+1.73413
+1.7081
+1.71492
+1.7199
+1.70052
+1.75219
+1.72417
+1.73149
+1.73031
+
+128
+524288
+1.63331
+1.62743
+1.55425
+1.63345
+1.61647
+1.55705
+1.63085
+1.62644
+1.62258
+1.63174
+
+256
+524288
+1.54822
+1.53856
+1.48667
+1.49093
+1.55287
+1.54541
+1.47006
+1.55252
+1.56393
+1.54745
+
+512
+524288
+1.49682
+1.50329
+1.41176
+1.4958
+1.49744
+1.4941
+1.48999
+1.49276
+1.51597
+1.41335
+
+1024
+524288
+1.37832
+1.39069
+1.45381
+1.46221
+1.4575
+1.45899
+1.39007
+1.45745
+1.46862
+1.38706
+
+2048
+524288
+1.4381
+1.43383
+1.44416
+1.4417
+1.36147
+1.36189
+1.36157
+1.43486
+1.44716
+1.37703
+
+4096
+524288
+1.42413
+1.41963
+1.41617
+1.44191
+1.41376
+1.4198
+1.41519
+1.42265
+1.44921
+1.41813
+
+8192
+524288
+1.40176
+1.40456
+1.39478
+1.3986
+1.4012
+1.39783
+1.39858
+1.39835
+1.40356
+1.40073
+
+16384
+524288
+1.37897
+1.39052
+1.37716
+1.38059
+1.38149
+1.38648
+1.38147
+1.38066
+1.37692
+1.37603
+
+32768
+524288
+1.34612
+1.33831
+1.35283
+1.35362
+1.35731
+1.3591
+1.34406
+1.35237
+1.34828
+1.35684
+
+65536
+524288
+1.31656
+1.31943
+1.31772
+1.32633
+1.32029
+1.30363
+1.32212
+1.31039
+1.3183
+1.31509
+
+131072
+524288
+1.25865
+1.24677
+1.26318
+1.26354
+1.273
+1.25897
+1.27292
+1.27037
+1.25897
+1.24566
+
+262144
+524288
+1.36444
+1.38308
+1.37877
+1.38451
+1.37952
+1.38314
+1.38426
+1.38202
+1.38055
+1.39085
+
+1
+1048576
+3.9166
+3.92673
+3.91425
+3.91921
+3.91542
+3.92084
+3.91315
+3.93708
+3.919
+3.92108
+
+2
+1048576
+3.74174
+3.82413
+3.78374
+3.78281
+3.75751
+3.76843
+3.76477
+3.7603
+3.73614
+3.76427
+
+4
+1048576
+3.62029
+3.57918
+3.61567
+3.65715
+3.55432
+3.58275
+3.56251
+3.52918
+3.56172
+3.62918
+
+8
+1048576
+3.45401
+3.61883
+3.3625
+3.41979
+3.39763
+3.41183
+3.40661
+3.51853
+3.39534
+3.3649
+
+16
+1048576
+3.14377
+3.19774
+3.16811
+3.21826
+3.17285
+3.24342
+3.20647
+3.1286
+3.21338
+3.21058
+
+32
+1048576
+2.99075
+3.04199
+3.01208
+3.04106
+2.95197
+3.00583
+3.08913
+3.05919
+2.94786
+2.99394
+
+64
+1048576
+2.75167
+2.80626
+2.76466
+2.76075
+2.79366
+2.76832
+2.74187
+2.78843
+2.80138
+2.78759
+
+128
+1048576
+2.55253
+2.54491
+2.57852
+2.56966
+2.56605
+2.55884
+2.47686
+2.57462
+2.53302
+2.57949
+
+256
+1048576
+2.32866
+2.41952
+2.32782
+2.38075
+2.3946
+2.30467
+2.3785
+2.38699
+2.32539
+2.41167
+
+512
+1048576
+2.15502
+2.25506
+2.16307
+2.16957
+2.2644
+2.24232
+2.24448
+2.23662
+2.24644
+2.24906
+
+1024
+1048576
+2.14953
+2.13963
+2.15729
+2.1647
+2.14172
+2.05883
+2.13196
+2.13825
+2.14
+2.12807
+
+2048
+1048576
+2.07759
+2.07201
+2.07561
+2.07778
+2.06611
+1.99629
+2.12242
+2.11641
+2.07075
+2.11382
+
+4096
+1048576
+2.03967
+2.07419
+2.05502
+2.03178
+2.0476
+2.03328
+2.03614
+2.03949
+2.0361
+2.04036
+
+8192
+1048576
+1.99201
+2.00976
+2.00147
+2.01039
+2.00118
+2.0108
+2.00169
+1.99787
+2.00662
+2.00695
+
+16384
+1048576
+1.94106
+1.99848
+2.01565
+2.0116
+1.96902
+1.99171
+2.01467
+2.0164
+1.96432
+1.97272
+
+32768
+1048576
+1.93872
+1.92119
+1.9205
+1.92644
+1.924
+1.92496
+1.91751
+1.92744
+1.95067
+1.96772
+
+65536
+1048576
+1.88164
+1.88801
+1.88377
+1.88175
+1.87599
+1.88263
+1.89303
+1.86375
+1.87595
+1.8847
+
+131072
+1048576
+1.81214
+1.84608
+1.82887
+1.82594
+1.85278
+1.80915
+1.85699
+1.86079
+1.80617
+1.75054
+
+262144
+1048576
+1.90342
+1.95945
+1.8927
+1.93182
+1.91876
+1.91728
+1.95948
+1.94124
+1.95404
+1.88698
+
+524288
+1048576
+1.7665
+1.79381
+1.74985
+1.78836
+1.76686
+1.78808
+1.80462
+1.76913
+1.78942
+1.81399
+
+1
+2097152
+7.2192
+7.22326
+7.25595
+7.12766
+7.25316
+7.26628
+7.25491
+7.22286
+7.22557
+7.14216
+
+2
+2097152
+6.856
+6.93633
+7.24211
+6.9656
+6.89869
+6.85382
+7.05169
+6.87502
+6.93155
+6.82431
+
+4
+2097152
+6.60477
+6.75314
+6.78225
+6.96084
+6.37077
+6.4901
+6.73186
+6.52888
+6.64291
+6.55916
+
+8
+2097152
+6.3574
+6.10229
+6.33584
+6.46884
+6.18112
+6.09606
+6.25123
+6.34309
+6.1702
+6.31931
+
+16
+2097152
+5.98115
+5.83661
+5.92733
+5.70853
+5.99839
+5.76737
+5.94312
+5.81387
+5.94837
+6.03897
+
+32
+2097152
+5.59862
+5.49786
+5.35555
+5.48372
+5.32796
+5.29765
+5.33251
+5.37674
+5.37846
+5.42394
+
+64
+2097152
+4.95733
+4.92177
+5.07831
+4.93801
+4.95277
+4.96955
+4.90716
+4.91011
+4.94396
+5.06284
+
+128
+2097152
+4.63616
+4.46135
+4.54394
+4.49643
+4.52331
+4.58574
+4.48408
+4.4086
+4.58667
+4.55777
+
+256
+2097152
+4.06372
+4.09029
+4.16651
+4.03819
+4.20901
+4.13068
+4.15998
+4.17316
+4.1733
+4.06547
+
+512
+2097152
+3.74699
+3.72206
+3.81393
+3.74815
+3.74479
+3.73623
+3.73073
+3.7825
+3.75428
+3.71239
+
+1024
+2097152
+3.50658
+3.47542
+3.44208
+3.47266
+3.49625
+3.47958
+3.43771
+3.48428
+3.52858
+3.51885
+
+2048
+2097152
+3.32182
+3.32513
+3.267
+3.27036
+3.27696
+3.28463
+3.27339
+3.27536
+3.34918
+3.27842
+
+4096
+2097152
+3.2456
+3.23898
+3.24863
+3.24329
+3.2454
+3.24453
+3.24482
+3.21831
+3.11816
+3.16029
+
+8192
+2097152
+3.14197
+3.04545
+3.17248
+3.18297
+3.14733
+3.14926
+3.15004
+3.13688
+3.13566
+3.14296
+
+16384
+2097152
+3.00217
+3.085
+3.07854
+3.12253
+3.08765
+3.08185
+3.05185
+3.12067
+3.12369
+3.12067
+
+32768
+2097152
+3.05542
+2.98387
+2.92823
+3.02061
+3.0717
+3.06385
+2.94463
+2.9842
+2.98501
+3.01789
+
+65536
+2097152
+2.98549
+2.90692
+2.99007
+2.90667
+2.99364
+2.98484
+2.99531
+2.98431
+2.97932
+2.91216
+
+131072
+2097152
+2.82812
+2.81638
+2.82849
+2.87143
+2.88776
+2.84854
+2.885
+2.81971
+2.82038
+2.81952
+
+262144
+2097152
+2.84053
+2.95992
+2.95604
+2.87557
+2.91151
+2.92172
+2.93149
+2.96178
+2.94527
+2.9214
+
+524288
+2097152
+2.63408
+2.63872
+2.75182
+2.6849
+2.68682
+2.69836
+2.67024
+2.65972
+2.68822
+2.71002
+
+1048576
+2097152
+2.49965
+2.40388
+2.53005
+2.49374
+2.46339
+2.42933
+2.40097
+2.3963
+2.41653
+2.52817
+
+1
+4194304
+14.0517
+13.9485
+13.9317
+13.9413
+13.945
+14.0261
+14.1238
+13.9638
+13.9507
+13.9488
+
+2
+4194304
+13.7879
+13.4932
+13.4207
+13.4635
+14.0835
+13.3151
+13.3432
+13.4015
+13.3269
+13.8923
+
+4
+4194304
+12.8651
+12.9167
+13.3243
+12.9003
+12.8175
+12.7922
+13.0463
+12.5712
+12.8065
+12.8068
+
+8
+4194304
+12.2365
+12.3133
+12.0872
+12.3007
+12.1302
+11.9387
+12.5981
+12.3494
+12.0247
+12.302
+
+16
+4194304
+11.4014
+11.5253
+11.2882
+11.5381
+11.2204
+11.3908
+11.1404
+11.5499
+11.3834
+11.5174
+
+32
+4194304
+10.606
+10.4374
+10.5559
+10.712
+10.6695
+10.716
+10.5303
+10.5036
+10.4957
+10.3881
+
+64
+4194304
+9.61702
+9.75393
+9.6986
+9.75407
+9.74616
+9.51464
+9.75828
+9.69623
+9.70164
+9.67987
+
+128
+4194304
+8.88377
+8.93774
+8.77295
+8.70812
+8.78237
+8.74704
+8.91006
+8.84723
+8.87323
+8.77492
+
+256
+4194304
+8.0004
+8.00374
+7.95858
+8.02972
+7.98597
+8.02115
+7.9949
+7.99268
+8.00353
+7.98307
+
+512
+4194304
+7.25605
+7.2496
+7.25117
+7.28987
+7.19608
+7.29358
+7.14308
+7.19423
+7.2496
+7.21342
+
+1024
+4194304
+6.52649
+6.53217
+6.54004
+6.54944
+6.55487
+6.5404
+6.59692
+6.56986
+6.55286
+6.57135
+
+2048
+4194304
+6.04467
+6.03307
+6.02324
+5.98144
+6.13254
+6.05377
+6.04231
+6.04044
+6.03056
+6.0224
+
+4096
+4194304
+5.63856
+5.65478
+5.67071
+5.66675
+5.62553
+5.57726
+5.60422
+5.5988
+5.59695
+5.5914
+
+8192
+4194304
+5.38612
+5.38647
+5.3852
+5.38915
+5.37966
+5.39179
+5.39254
+5.39107
+5.41308
+5.37696
+
+16384
+4194304
+5.28373
+5.2781
+5.27748
+5.28043
+5.28042
+5.27685
+5.27848
+5.26978
+5.27795
+5.28632
+
+32768
+4194304
+5.16591
+5.17153
+5.16724
+5.18918
+5.18219
+5.19746
+5.16935
+5.18503
+5.17424
+5.15888
+
+65536
+4194304
+5.03675
+5.04266
+5.07097
+5.03336
+5.05172
+5.06562
+5.07157
+5.04222
+5.04926
+5.04582
+
+131072
+4194304
+4.9173
+4.91051
+4.91461
+4.90969
+4.89908
+4.91123
+4.91398
+4.90491
+4.91011
+4.91211
+
+262144
+4194304
+4.90815
+4.91964
+4.90177
+4.92571
+4.89843
+4.92751
+4.89972
+4.90807
+4.91784
+4.89265
+
+524288
+4194304
+4.67969
+4.63678
+4.66613
+4.66207
+4.67817
+4.67548
+4.67613
+4.69071
+4.67686
+4.68108
+
+1048576
+4194304
+4.29801
+4.33455
+4.32513
+4.33525
+4.33131
+4.3377
+4.33578
+4.30581
+4.32819
+4.3274
+
+1
+8388608
+28.5452
+28.558
+28.578
+28.5339
+28.5955
+28.5908
+28.5646
+28.5838
+28.5607
+28.5522
+
+2
+8388608
+27.3405
+27.2049
+27.5915
+27.4743
+27.337
+27.3611
+27.2978
+28.4036
+27.2193
+27.3323
+
+4
+8388608
+25.9722
+27.1875
+26.4854
+26.3714
+26.5784
+26.2158
+25.9217
+26.13
+26.4816
+26.7689
+
+8
+8388608
+24.5646
+24.9855
+26.0137
+25.3579
+24.8056
+24.8468
+24.68
+24.8447
+25.2936
+24.8204
+
+16
+8388608
+22.7835
+24.0798
+23.3754
+23.4471
+22.9786
+23.231
+23.4987
+22.9712
+23.7356
+23.5208
+
+32
+8388608
+21.9961
+21.827
+21.4572
+21.6148
+21.4408
+21.4236
+21.663
+21.3652
+21.6018
+21.7809
+
+64
+8388608
+19.8377
+20.185
+19.7624
+19.9815
+20.0209
+19.7333
+20.0337
+20.1054
+20.0355
+19.7527
+
+128
+8388608
+17.9804
+18.0804
+18.1454
+18.0207
+18.193
+18.288
+18.3559
+18.2441
+18.3629
+18.2124
+
+256
+8388608
+16.3613
+16.5688
+16.4278
+16.4626
+16.631
+16.3807
+16.6623
+16.5608
+16.5488
+16.3753
+
+512
+8388608
+14.724
+14.9013
+14.9524
+14.886
+14.8572
+15.0054
+14.938
+14.8504
+14.9084
+14.885
+
+1024
+8388608
+13.4085
+13.5708
+13.3609
+13.431
+13.4052
+13.348
+13.4016
+13.4433
+13.3598
+13.401
+
+2048
+8388608
+12.0481
+12.0893
+12.2216
+12.0478
+12.1183
+12.0818
+12.089
+12.0005
+12.0749
+12.1108
+
+4096
+8388608
+11.0267
+11.0595
+11.0454
+11.0741
+11.0451
+11.0659
+11.0441
+11.0954
+11.07
+11.0218
+
+8192
+8388608
+10.3619
+10.342
+10.3653
+10.3465
+10.3448
+10.3613
+10.3519
+10.3625
+10.3203
+10.3429
+
+16384
+8388608
+9.9561
+10.0692
+9.96032
+10.0742
+9.99945
+10.1265
+9.97719
+10.0406
+9.9645
+10.1226
+
+32768
+8388608
+9.76069
+9.75224
+9.74159
+9.74196
+9.8303
+9.74946
+9.74303
+9.75826
+9.74711
+9.74365
+
+65536
+8388608
+9.54693
+9.54587
+9.52073
+9.72863
+9.56553
+9.73846
+9.5431
+9.54361
+9.57761
+9.54746
+
+131072
+8388608
+9.32082
+9.34877
+9.3228
+9.44261
+9.33695
+9.3449
+9.3245
+9.33236
+9.3305
+9.39118
+
+262144
+8388608
+9.25105
+9.25951
+9.20579
+9.25329
+9.2509
+9.27509
+9.25205
+9.23157
+9.23943
+9.23577
+
+524288
+8388608
+8.90337
+9.08503
+8.91354
+8.92625
+8.92692
+8.92247
+8.91189
+8.92132
+8.91502
+8.94776
+
+1048576
+8388608
+8.43198
+8.47646
+8.47221
+8.4392
+8.47139
+8.43933
+8.48398
+8.45167
+8.40533
+8.45112
+
+1
+16777216
+61.0261
+61.0275
+61.069
+61.0641
+61.2317
+60.9814
+61.0044
+61.0143
+61.0727
+61.012
+
+2
+16777216
+58.6084
+58.0927
+57.9236
+58.2485
+57.8846
+57.9148
+59.8364
+59.0549
+60.121
+58.3978
+
+4
+16777216
+55.0804
+55.5839
+55.8103
+55.0685
+55.3128
+56.1426
+56.9919
+55.8076
+54.8631
+56.5203
+
+8
+16777216
+51.5628
+54.8568
+54.0427
+52.7096
+52.5014
+52.7783
+52.9357
+52.0701
+52.5557
+52.4752
+
+16
+16777216
+48.4
+48.9086
+49.6452
+49.4275
+48.8789
+48.4591
+49.0298
+49.5051
+48.9145
+48.9656
+
+32
+16777216
+45.8272
+45.7072
+46.1472
+46.9317
+45.4274
+45.7123
+45.5567
+46.906
+45.7301
+45.8368
+
+64
+16777216
+42.077
+41.3439
+42.5079
+42.806
+42.3528
+42.9158
+42.2548
+42.2904
+43.4809
+41.9297
+
+128
+16777216
+38.6313
+38.4747
+39.2571
+38.593
+38.6651
+38.563
+38.4361
+39.0054
+38.5696
+38.3917
+
+256
+16777216
+35.6527
+35.0931
+35.0472
+35.2203
+35.3286
+35.1755
+35.0616
+34.6402
+35.1701
+34.9857
+
+512
+16777216
+31.5306
+31.9528
+31.8782
+31.8982
+31.9929
+31.7182
+31.844
+32.3577
+31.9193
+32.0058
+
+1024
+16777216
+28.5063
+28.5252
+28.3859
+28.594
+28.6259
+28.7235
+28.5309
+28.4915
+28.6147
+28.3731
+
+2048
+16777216
+25.4938
+25.521
+25.4399
+25.5964
+25.5048
+25.4526
+25.4336
+25.4093
+25.5346
+25.5756
+
+4096
+16777216
+22.9104
+22.9861
+23.022
+22.9183
+22.8765
+22.9379
+22.9598
+23.0297
+23.0735
+22.9183
+
+8192
+16777216
+20.8277
+20.8002
+20.8084
+20.8256
+20.777
+20.8249
+20.8828
+20.8036
+20.7928
+20.8838
+
+16384
+16777216
+19.3458
+19.3573
+19.3884
+19.4018
+19.3659
+19.377
+19.4705
+19.357
+19.3265
+19.3323
+
+32768
+16777216
+18.5738
+18.541
+18.5269
+18.5791
+18.6574
+18.6058
+18.6041
+18.5456
+18.5485
+18.5847
+
+65536
+16777216
+18.1238
+18.2569
+18.1302
+18.1766
+18.167
+18.1734
+18.1545
+18.1989
+18.1483
+18.1828
+
+131072
+16777216
+17.833
+17.8352
+17.8204
+17.8209
+17.7886
+17.8348
+17.8131
+17.8192
+17.7973
+17.8467
+
+262144
+16777216
+17.6333
+17.6494
+17.6406
+17.6238
+17.6353
+17.6756
+17.6443
+17.6573
+17.7666
+17.6431
+
+524288
+16777216
+17.1444
+17.1606
+17.1634
+17.1576
+17.2914
+17.1559
+17.1786
+17.1655
+17.133
+17.1679
+
+1048576
+16777216
+16.5715
+16.5637
+16.5228
+16.5354
+16.7232
+16.5321
+16.5982
+16.5026
+16.544
+16.5345
+
+1
+33554432
+130.724
+130.533
+130.424
+130.345
+130.63
+130.448
+130.534
+130.351
+130.547
+130.715
+
+2
+33554432
+125.564
+125.638
+124.293
+125.114
+125.359
+125.415
+125.658
+126.651
+124.262
+125.745
+
+4
+33554432
+120.979
+118.697
+123.238
+124.56
+121.665
+120.034
+119.592
+127.613
+117.813
+121.349
+
+8
+33554432
+111.858
+115.627
+114.427
+111.786
+113.561
+116.318
+111.642
+113.092
+114.313
+113.899
+
+16
+33554432
+107.013
+106.611
+108.157
+106.748
+108.512
+105.765
+106.502
+106.12
+108.636
+107.387
+
+32
+33554432
+100.198
+99.4167
+99.6168
+100.814
+99.3617
+99.8632
+99.0748
+100.963
+98.5371
+101.721
+
+64
+33554432
+92.3457
+92.9303
+92.0759
+91.5697
+91.416
+91.6272
+92.0024
+91.5032
+93.6668
+92.3204
+
+128
+33554432
+84.5425
+86.2779
+86.2518
+84.5082
+84.7108
+86.0528
+84.2883
+85.6233
+86.2425
+84.5312
+
+256
+33554432
+77.3854
+77.2992
+77.5758
+76.9347
+77.1473
+78.1427
+77.5678
+77.3874
+76.4742
+77.9415
+
+512
+33554432
+70.3989
+70.0555
+70.1776
+69.9738
+70.459
+70.693
+70.0875
+70.0144
+70.2857
+69.5406
+
+1024
+33554432
+62.981
+63.0281
+62.9894
+62.8977
+63.0969
+62.822
+63.5564
+62.98
+62.6611
+62.962
+
+2048
+33554432
+56.046
+56.4224
+56.3847
+56.0507
+56.2654
+56.1541
+56.5048
+56.3863
+56.4323
+56.1799
+
+4096
+33554432
+50.3307
+50.1304
+50.2447
+50.379
+50.2392
+50.4866
+50.2246
+50.3855
+50.3795
+50.3319
+
+8192
+33554432
+44.9677
+45.168
+44.838
+44.8014
+44.8766
+44.8713
+44.9111
+44.7989
+44.9147
+44.9962
+
+16384
+33554432
+40.6005
+40.4937
+40.5631
+40.6045
+40.578
+40.6163
+40.6654
+40.6417
+40.6011
+40.6092
+
+32768
+33554432
+37.772
+37.778
+37.8013
+37.8229
+37.8072
+37.7448
+37.7714
+37.7155
+37.7877
+37.7195
+
+65536
+33554432
+36.1147
+36.1032
+36.1353
+36.1107
+36.123
+36.1339
+36.1217
+36.0888
+36.1084
+36.1421
+
+131072
+33554432
+35.3375
+35.3883
+35.3723
+35.3275
+35.3235
+35.3577
+35.3494
+35.3469
+35.3676
+35.3208
+
+262144
+33554432
+34.6897
+34.7145
+34.6732
+34.6934
+34.7165
+34.653
+34.6894
+34.7242
+34.6872
+34.6607
+
+524288
+33554432
+33.9761
+33.9741
+33.9757
+33.9909
+33.9432
+33.9787
+33.942
+33.9814
+33.991
+33.9901
+
+1048576
+33554432
+33.1344
+33.0977
+33.0734
+33.0936
+33.0978
+33.1028
+33.0949
+33.1148
+33.1374
+33.1069
+
+1
+67108864
+281.094
+281.4
+281.144
+281.301
+281.684
+281.025
+281.31
+281.624
+281.261
+281.263
+
+2
+67108864
+270.461
+272.722
+274.712
+269.891
+271.074
+277.827
+269.543
+270.335
+270.609
+269.079
+
+4
+67108864
+261.072
+272.883
+262.571
+260.699
+259.092
+263.692
+259.447
+257.368
+262.197
+263.272
+
+8
+67108864
+247.712
+246.806
+247.511
+245.821
+249.95
+246.779
+252.411
+246.067
+246.975
+241.945
+
+16
+67108864
+232.906
+231.885
+233.92
+234.036
+236.92
+234.76
+230.705
+239.355
+230.784
+237.538
+
+32
+67108864
+218.271
+218.333
+216.008
+217.978
+217.041
+218.745
+219.619
+222.729
+216.724
+219.364
+
+64
+67108864
+203.964
+205.76
+203.448
+202.282
+204.643
+208.102
+201.532
+201.53
+203.178
+205.16
+
+128
+67108864
+185.505
+187.273
+186.9
+187.783
+188.052
+187.448
+188.333
+187.08
+189.658
+187.175
+
+256
+67108864
+174.12
+173.347
+171.58
+171.366
+171.897
+172.598
+173.324
+172.003
+172.471
+171.497
+
+512
+67108864
+157.544
+158.089
+158.062
+157.255
+158.018
+157.379
+157.321
+156.78
+156.177
+156.82
+
+1024
+67108864
+141.43
+142.011
+142.213
+141.747
+141.743
+141.244
+141.62
+141.687
+142.85
+141.485
+
+2048
+67108864
+128.12
+127.27
+127.416
+127.75
+127.335
+127.33
+126.955
+127.304
+127.705
+127.087
+
+4096
+67108864
+113.944
+113.896
+113.907
+113.765
+113.913
+113.605
+113.402
+113.404
+113.571
+113.788
+
+8192
+67108864
+101.182
+101.037
+101.136
+100.799
+101.049
+101.114
+101.209
+101.076
+101.279
+101.221
+
+16384
+67108864
+89.8503
+90.2852
+89.9212
+90.013
+90.2431
+89.8342
+90.1359
+90.0578
+90.0796
+89.8885
+
+32768
+67108864
+81.0628
+81.0601
+81.6019
+81.2334
+81.1361
+81.1722
+81.1969
+81.0354
+81.0593
+81.0527
+
+65536
+67108864
+74.948
+74.9704
+74.9894
+74.8648
+74.9722
+74.977
+74.9266
+74.9593
+75.0719
+75.1722
+
+131072
+67108864
+71.6181
+71.7115
+71.5349
+71.6085
+71.509
+71.5728
+71.5311
+71.6001
+71.5449
+71.674
+
+262144
+67108864
+70.0838
+70.1634
+70.0401
+70.0494
+70.1693
+70.2182
+70.0878
+70.0961
+70.0543
+70.12
+
+524288
+67108864
+68.8274
+68.8292
+68.8716
+68.8829
+68.8068
+68.8229
+68.8838
+68.803
+68.8491
+68.9467
+
+1048576
+67108864
+67.4812
+67.4357
+67.4805
+67.9831
+67.5684
+67.4478
+67.4459
+67.5168
+67.4741
+67.4828
+
+1
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+2
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+4
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+8
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+16
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+32
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+64
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+128
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+256
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+512
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+1024
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+2048
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+4096
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+8192
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+16384
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+32768
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+65536
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+131072
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+262144
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+524288
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+
+1048576
+134217728
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+Sync kernel error: out of memory
+0
