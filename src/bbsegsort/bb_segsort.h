@@ -28,8 +28,8 @@ void show_d(T *arr_d, int n, std::string prompt);
 #include "bb_comput_l.h"
 
 #define CUDA_CHECK(_e, _s) if(_e != cudaSuccess) { \
-        std::cout << "CUDA error (" << _s << "): " << cudaGetErrorString(_e) << std::endl; \
-        return 0; }
+        std::cerr << "CUDA error (" << _s << "): " << cudaGetErrorString(_e) << std::endl; \
+        return 1; }
 
 
 template<class K, class T>
@@ -188,7 +188,7 @@ int bb_segsort(K *keys_d, T *vals_d, int n,  int *d_segs, int length)
 
     for (int i = 0; i < SEGBIN_NUM - 1; i++) cudaStreamDestroy(streams[i]);
     delete[] h_bin_counter;
-    return 1;
+    return 0;
 }
 
 template<class T>
