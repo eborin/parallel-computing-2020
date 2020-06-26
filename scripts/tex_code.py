@@ -22,13 +22,14 @@ commands = "\
 %%\\newcommand{\\nthrust}{\\color{c1}MT}\n\
 %%\\newcommand{\\noTest}{-}\n"
 
-header = "\
+def header(caption):
+	return "\
 \\begin{table}\n\
 \centering\n\
 \def\\arraystretch{1.2}\n\
 \setlength{\\tabcolsep}{0.1em}\n\
 \scriptsize\n\
-\caption{TESTE}\n\
+\caption{Best results for each combination of array length and number of segments considering segments " + caption + "}\n\
 \\begin{tabular}\n\
 {|C{0.2cm}C{0.5cm}||C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}|}\n \
 \hhline{|*{15}{-}|}\n\

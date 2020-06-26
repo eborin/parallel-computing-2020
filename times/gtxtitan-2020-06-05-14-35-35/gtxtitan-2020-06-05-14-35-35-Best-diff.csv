@@ -1,0 +1,22 @@
+Best results for each combination of array length and number of segments considering segments with different sizes on GTXTITAN.
+0;nthrust;nthrust;nthrust;nthrust;nthrust;nthrust;nthrust;fixthrust;nthrust;nthrust;fixthrust;fixthrust;fixthrust
+1;mergeseg;fixthrust;fixcub;fixcub;fixcub;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+2;mergeseg;fixthrust;fixcub;fixcub;fixcub;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+3;mergeseg;fixthrust;fixcub;fixcub;fixcub;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+4;radixseg;fixthrust;fixcub;fixcub;fixcub;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+5;radixseg;radixseg;fixcub;fixcub;fixcub;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+6;radixseg;radixseg;radixseg;fixcub;fixcub;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+7;radixseg;radixseg;radixseg;radixseg;radixseg;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+8;bbsegsort;radixseg;radixseg;radixseg;radixseg;radixseg;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+9;bbsegsort;bbsegsort;fixcub;fixcub;radixseg;radixseg;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+10;bbsegsort;bbsegsort;bbsegsort;fixcub;fixcub;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+11;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+12;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+13;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+14;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+15;--;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+16;--;--;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+17;--;--;--;fixcub;bbsegsort;bbsegsort;bbsegsort;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+18;--;--;--;--;fixcub;bbsegsort;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+19;--;--;--;--;--;mergeseg;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+20;--;--;--;--;--;--;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust

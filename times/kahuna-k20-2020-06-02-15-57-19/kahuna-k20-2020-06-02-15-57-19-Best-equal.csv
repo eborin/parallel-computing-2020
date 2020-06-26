@@ -1,0 +1,22 @@
+Best results for each combination of array length and number of segments considering segments with the same size on KAHUNA.
+0;nthrust;nthrust;fixcub;nthrust;nthrust;nthrust;nthrust;nthrust;nthrust;nthrust;nthrust;nthrust;nthrust
+1;mergeseg;fixthrust;fixcub;fixcub;fixcub;fixcub;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+2;radixseg;fixthrust;fixcub;fixcub;fixcub;fixcub;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+3;radixseg;radixseg;fixcub;fixcub;fixcub;fixcub;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+4;bbsegsort;radixseg;radixseg;radixseg;fixcub;fixcub;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+5;radixseg;radixseg;radixseg;radixseg;radixseg;radixseg;radixseg;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+6;bbsegsort;radixseg;radixseg;radixseg;radixseg;radixseg;radixseg;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+7;bbsegsort;radixseg;radixseg;radixseg;radixseg;radixseg;radixseg;radixseg;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+8;bbsegsort;bbsegsort;radixseg;radixseg;radixseg;radixseg;radixseg;radixseg;radixseg;radixseg;fixthrust;fixthrust;fixthrust
+9;bbsegsort;bbsegsort;mergeseg;bbsegsort;radixseg;radixseg;radixseg;radixseg;radixseg;radixseg;fixthrust;fixthrust;fixthrust
+10;bbsegsort;bbsegsort;mergeseg;bbsegsort;bbsegsort;bbsegsort;bbsegsort;radixseg;radixseg;radixseg;fixthrust;fixthrust;fixthrust
+11;bbsegsort;bbsegsort;mergeseg;bbsegsort;bbsegsort;bbsegsort;bbsegsort;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+12;bbsegsort;bbsegsort;mergeseg;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;fixthrust;fixthrust;fixthrust;fixthrust;fixthrust
+13;bbsegsort;bbsegsort;mergeseg;fixcub;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;fixthrust;fixthrust;fixthrust;fixthrust
+14;bbsegsort;bbsegsort;mergeseg;fixcub;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;fixthrust;fixthrust;fixthrust
+15;--;bbsegsort;mergeseg;fixcub;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;fixthrust;fixthrust
+16;--;--;mergeseg;fixcub;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;fixthrust
+17;--;--;--;fixcub;mergeseg;mergeseg;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort
+18;--;--;--;--;fixcub;fixcub;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort
+19;--;--;--;--;--;fixcub;mergeseg;mergeseg;bbsegsort;bbsegsort;bbsegsort;bbsegsort;bbsegsort
+20;--;--;--;--;--;--;mergeseg;mergeseg;mergeseg;bbsegsort;bbsegsort;bbsegsort;bbsegsort

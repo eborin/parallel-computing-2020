@@ -11,17 +11,23 @@ def scan_machine_dirs(dirFiles, machine):
 		print('Reading files into directory: ', d.path, '".')
 		
 		texFile = dirFiles + '/' + machine + "-" + "Best-" + d.name + ".tex"
+		csvFile = dirFiles + '/' + machine + "-" + "Best-" + d.name + ".csv"
 
 		if os.path.exists(texFile):
 			os.remove(texFile)
 			print("Removing text file: " + texFile)
+
+		if os.path.exists(texFile):
+			os.remove(csvFile)
+			print("Removing text file: " + csvFile)
 
 		vecMap = parse_files(d.path)
 
 		bestValues = {}
 		bestStrategies = {}
 		calc_best_strategy(vecMap, bestValues, bestStrategies)
-		create_tex(bestStrategies, texFile)
+		create_tex(bestStrategies, texFile, machine.split('-')[0].upper(), d.name)
+		create_csv(bestStrategies, csvFile, machine.split('-')[0].upper(), d.name)
 
 
 def parse_files(dirFiles):
@@ -49,6 +55,7 @@ def parse_files(dirFiles):
 			seg = int(lines[i].strip())
 			length = int(lines[i+1].strip())
 			i = i+2
+
 			if(lines[i].strip() == "--"):
 				break
 
@@ -58,6 +65,7 @@ def parse_files(dirFiles):
 				s += float(lines[i].strip())
 				i += 1
 				count += 1
+				
 			s = s/count
 
 			if(not seg in mapFile):
@@ -84,24 +92,36 @@ def calc_best_strategy(vecMap, bestValues, bestStrategies):
 			minChoice = 'bbsegsort'
 		
 			for strategy in vecMap:
-				if(seg in vecMap[strategy]):
-					if(length in vecMap[strategy][seg]):
-						if(vecMap[strategy][seg][length] < minValue):
-							minValue = vecMap[strategy][seg][length]
-							minChoice = strategy
+				if(not seg in vecMap[strategy]):
+					continue
+
+				if(not length in vecMap[strategy][seg]):
+					continue
+				
+				if(vecMap[strategy][seg][length] < minValue):
+					minValue = vecMap[strategy][seg][length]
+					minChoice = strategy
 
 			bestValues[seg][length] = minValue
 			bestStrategies[seg][length] = minChoice
 
 
-def create_tex(bestStrategies, texFile):
+def create_tex(bestStrategies, texFile, machine, equalOrDiff):
 	print("Creating text file: " + texFile)
 	f = open(texFile, 'w')
 
 	f.write(tex_code.packages)
 	f.write(tex_code.commands)
-	f.write(tex_code.header)
 
+	if(equalOrDiff == "equal"):
+		sizeSegments = "with the \\textbf{same size}"
+	else:
+		sizeSegments = "with \\textbf{different sizes}"
+
+	caption = sizeSegments + " on \\textbf{" + machine + "}."
+	
+	f.write(tex_code.header(caption))
+	
 	seg=1
 	while seg <= 1048576:
 		length = 32768
@@ -111,10 +131,49 @@ def create_tex(bestStrategies, texFile):
 			if(length/seg <= 1):
 				f.write(" & \\noTest")
 			else:
-				f.write(" & \\" + bestStrategies[seg][length])
+				if(length in bestStrategies[seg]):
+					f.write(" & \\" + bestStrategies[seg][length])
+				else:
+					f.write(" & \\noTest")
 			length *= 2
 		
 		seg *= 2
 		f.write("\\\\ \n")
 
 	f.write(tex_code.tail)
+	f.close()
+
+
+def create_csv(bestStrategies, csvFile, machine, equalOrDiff):
+	print("Creating csv file: " + csvFile)
+	f = open(csvFile, 'w')
+
+	caption = "Best results for each combination of array length and number of segments considering segments "
+	if(equalOrDiff == "equal"):
+		sizeSegments = "with the same size"
+	else:
+		sizeSegments = "with different sizes"
+
+	caption += sizeSegments + " on " + machine + ".\n"
+	
+	f.write(caption)
+	
+	seg=1
+	while seg <= 1048576:
+		length = 32768
+		f.write(str(int(math.log(seg,2))))
+
+		while length <= 134217728:
+			if(length/seg <= 1):
+				f.write(";--")
+			else:
+				if(length in bestStrategies[seg]):
+					f.write(";" + bestStrategies[seg][length])
+				else:
+					f.write(";--")
+			length *= 2
+		
+		seg *= 2
+		f.write("\n")
+
+	f.close()
