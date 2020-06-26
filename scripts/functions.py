@@ -10,16 +10,21 @@ def scan_machine_dirs(dirFiles, machine):
 
 		print('Reading files into directory: ', d.path, '".')
 		
-		texFile = dirFiles + '/' + machine + "-" + "Best-" + d.name + ".tex"
-		csvFile = dirFiles + '/' + machine + "-" + "Best-" + d.name + ".csv"
+		texFile = dirFiles + '/' + machine.split('-')[0].lower() + "-best-" + d.name + ".tex"
+		csvFile = dirFiles + '/' + machine.split('-')[0].lower() + "-best-" + d.name + ".csv"
+		scurveFile = dirFiles + '/' + machine.split('-')[0].lower() + "-scurve-" + d.name + ".eps"
 
 		if os.path.exists(texFile):
 			os.remove(texFile)
 			print("Removing text file: " + texFile)
 
-		if os.path.exists(texFile):
+		if os.path.exists(csvFile):
 			os.remove(csvFile)
 			print("Removing text file: " + csvFile)
+
+		if os.path.exists(scurveFile):
+			os.remove(scurveFile)
+			print("Removing text file: " + scurveFile)
 
 		vecMap = parse_files(d.path)
 
@@ -28,6 +33,7 @@ def scan_machine_dirs(dirFiles, machine):
 		calc_best_strategy(vecMap, bestValues, bestStrategies)
 		create_tex(bestStrategies, texFile, machine.split('-')[0].upper(), d.name)
 		create_csv(bestStrategies, csvFile, machine.split('-')[0].upper(), d.name)
+		scurve(vecMap, bestValues, scurveFile)
 
 
 def parse_files(dirFiles):
@@ -177,3 +183,36 @@ def create_csv(bestStrategies, csvFile, machine, equalOrDiff):
 		f.write("\n")
 
 	f.close()
+
+
+def scurve(vecMap, bestValues, scurveFile):
+	import matplotlib.pylab as plt
+
+	scurves = {}
+	for strategy in vecMap:
+		c = []
+		for seg in vecMap[strategy]:
+			for length in vecMap[strategy][seg]:
+				if(length in bestValues[seg]):
+					c.append(vecMap[strategy][seg][length]/bestValues[seg][length])
+
+		scurves[strategy] = sorted(c)
+
+	fig = plt.figure()
+	ax = fig.add_subplot(1, 1, 1)
+	ax.set_ylim([1, 6])
+	#ax.set_yscale('log')
+
+	symbol = {'bbsegsort':'.-','mergeseg':'*-','radixseg':'v-','nthrust':'x-','fixthrust':'m+-','fixcub':'y|-'}
+	color = {'bbsegsort':'green','mergeseg':'blue','radixseg':'red','nthrust':'purple','fixthrust':'brown','fixcub':'orange'}
+	mapName = {'bbsegsort':'H','mergeseg':'M','radixseg':'R','nthrust':'MT','fixthrust':'FT','fixcub':'FC'}
+
+	for strategy in scurves:
+		plt.plot(scurves[strategy], symbol[strategy], color=color[strategy], markevery=5, label=mapName[strategy])
+
+	plt.ylabel('Normalized Times')
+	plt.xticks([]) # hide axis x
+	plt.legend() # show line names
+	
+	plt.savefig(scurveFile, format='eps')
+	#plt.show()
