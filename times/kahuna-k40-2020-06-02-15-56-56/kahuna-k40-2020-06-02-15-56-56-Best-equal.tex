@@ -1,0 +1,54 @@
+%%\usepackage{multirow}
+%%\usepackage{makecell}
+%%\usepackage{adjustbox}
+%%\usepackage{hhline}
+%%\usepackage{tabu}
+%%\definecolor{c1}{HTML}{984EA3}
+%%\definecolor{c2}{HTML}{377EB8}
+%%\definecolor{c3}{HTML}{E41A1C}
+%%\definecolor{c4}{HTML}{4DAF4A}
+%%\definecolor{c5}{HTML}{FF7F00}
+%%\definecolor{c6}{HTML}{A65628}
+%%\newcommand{\bbsegsort}{\color{c4}H}
+%%\newcommand{\fixcub}{\color{c5}FC}
+%%\newcommand{\fixthrust}{\color{brown}FT}
+%%\newcommand{\mergeseg}{\color{c2}M}
+%%\newcommand{\radixseg}{\color{c3}R}
+%%\newcommand{\nthrust}{\color{c1}MT}
+%%\newcommand{\noTest}{-}
+\begin{table}
+\centering
+\def\arraystretch{1.2}
+\setlength{\tabcolsep}{0.1em}
+\scriptsize
+\caption{TESTE}
+\begin{tabular}
+{|C{0.2cm}C{0.5cm}||C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}|}
+ \hhline{|*{15}{-}|}
+&    & \multicolumn{13}{c|}{Array Length ($2^{n}$)} \\ 
+&    & 15         & 16         & 17         & 18         & 19         & 20         & 21         & 22         & 23         & 24         & 25         & 26         & 27 \\ \hhline{|*{15}{=}|}
+\parbox[t]{1pt}{\multirow{21}{*}{\rotatebox[origin=c]{90}{Number of segments ($2^{m}$)}}}
+ & 0 & \nthrust & \nthrust & \fixcub & \nthrust & \nthrust & \nthrust & \nthrust & \fixthrust & \nthrust & \nthrust & \fixthrust & \nthrust & \nthrust\\ 
+ & 1 & \mergeseg & \fixthrust & \fixcub & \fixcub & \fixcub & \fixcub & \fixcub & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 2 & \radixseg & \fixthrust & \fixcub & \fixcub & \fixcub & \fixcub & \fixcub & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 3 & \radixseg & \radixseg & \radixseg & \fixcub & \fixcub & \fixcub & \fixcub & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 4 & \radixseg & \radixseg & \radixseg & \radixseg & \fixcub & \fixcub & \fixcub & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 5 & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \fixcub & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 6 & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 7 & \bbsegsort & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 8 & \bbsegsort & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 9 & \bbsegsort & \bbsegsort & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \radixseg & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 10 & \bbsegsort & \bbsegsort & \fixcub & \fixcub & \fixcub & \radixseg & \radixseg & \fixthrust & \radixseg & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 11 & \bbsegsort & \bbsegsort & \fixcub & \fixcub & \fixcub & \fixcub & \fixcub & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 12 & \bbsegsort & \bbsegsort & \fixcub & \fixcub & \bbsegsort & \bbsegsort & \fixcub & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 13 & \bbsegsort & \bbsegsort & \fixcub & \fixcub & \bbsegsort & \bbsegsort & \bbsegsort & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 14 & \bbsegsort & \bbsegsort & \fixcub & \bbsegsort & \fixcub & \bbsegsort & \bbsegsort & \bbsegsort & \fixthrust & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 15 & \noTest & \bbsegsort & \fixcub & \fixcub & \bbsegsort & \bbsegsort & \bbsegsort & \bbsegsort & \bbsegsort & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 16 & \noTest & \noTest & \fixcub & \fixcub & \bbsegsort & \bbsegsort & \bbsegsort & \bbsegsort & \bbsegsort & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 17 & \noTest & \noTest & \noTest & \fixcub & \fixcub & \fixcub & \fixcub & \bbsegsort & \bbsegsort & \bbsegsort & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 18 & \noTest & \noTest & \noTest & \noTest & \fixcub & \fixcub & \fixcub & \bbsegsort & \bbsegsort & \fixthrust & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 19 & \noTest & \noTest & \noTest & \noTest & \noTest & \fixcub & \fixcub & \fixthrust & \bbsegsort & \bbsegsort & \fixthrust & \fixthrust & \fixthrust\\ 
+ & 20 & \noTest & \noTest & \noTest & \noTest & \noTest & \noTest & \fixcub & \fixthrust & \fixthrust & \bbsegsort & \bbsegsort & \fixthrust & \fixthrust\\ 
+\hhline{|*{16}{-}|}
+\end{tabular}
+\end{table}

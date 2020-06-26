@@ -27,7 +27,7 @@ function execute_sort_kernel ()
     else
 	mv "${err_file}" "${time_dir}/"
 	cp "${inp}" "${time_dir}/"
-	echo "--"      >> "${time_dir}/${id}.time"
+	#echo "--"      >> "${time_dir}/${id}.time"
 	echo "-- ; ERROR" >> "${time_dir}/${id}.time2"
     fi
 }

@@ -113,19 +113,19 @@ int main(int argc, char** argv) {
 		cudaTest(cudaMemcpy(d_seg, h_seg, mem_size_seg, cudaMemcpyHostToDevice));
 		cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
 
-		try {
+		//try {
 		cudaEventRecord(start);
 		mgpu::segmented_sort(d_vec, d_index_resp, num_of_elements, d_seg,
 				num_of_segments, mgpu::less_t<uint>(), context);
 		cudaEventRecord(stop);
-		} catch (mgpu::cuda_exception_t ex) {
+		//} catch (mgpu::cuda_exception_t ex) {
 			cudaError_t errSync = cudaGetLastError();
 			cudaError_t errAsync = cudaDeviceSynchronize();
 			if (errSync != cudaSuccess)
 				printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
 			if (errAsync != cudaSuccess)
 				printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
-		}
+		//}
 
 		if (ELAPSED_TIME == 1) {
 			cudaEventSynchronize(stop);
