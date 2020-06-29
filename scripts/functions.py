@@ -1,6 +1,9 @@
+#!/usr/bin/python3.6
+
 import os
 import math
 import tex_code
+import config_generator
 
 def scan_machine_dirs(dirFiles, machine):
 	directories = os.scandir(dirFiles)
@@ -9,31 +12,35 @@ def scan_machine_dirs(dirFiles, machine):
 			continue
 
 		print('Reading files into directory: ', d.path, '".')
-		
-		texFile = dirFiles + '/' + machine.split('-')[0].lower() + "-best-" + d.name + ".tex"
-		csvFile = dirFiles + '/' + machine.split('-')[0].lower() + "-best-" + d.name + ".csv"
-		scurveFile = dirFiles + '/' + machine.split('-')[0].lower() + "-scurve-" + d.name + ".eps"
-
-		if os.path.exists(texFile):
-			os.remove(texFile)
-			print("Removing text file: " + texFile)
-
-		if os.path.exists(csvFile):
-			os.remove(csvFile)
-			print("Removing text file: " + csvFile)
-
-		if os.path.exists(scurveFile):
-			os.remove(scurveFile)
-			print("Removing text file: " + scurveFile)
-
 		vecMap = parse_files(d.path)
 
 		bestValues = {}
 		bestStrategies = {}
 		calc_best_strategy(vecMap, bestValues, bestStrategies)
-		create_tex(bestStrategies, texFile, machine.split('-')[0].upper(), d.name)
-		create_csv(bestStrategies, csvFile, machine.split('-')[0].upper(), d.name)
-		scurve(vecMap, bestValues, scurveFile)
+
+		if(config_generator.texGenerator): 
+			texFile = dirFiles + '/' + machine.split('-')[0].lower() + "-best-" + d.name + ".tex"
+			if os.path.exists(texFile):
+				os.remove(texFile)
+				print("Removing tex file: " + texFile)
+			
+			create_tex(bestStrategies, texFile, machine.split('-')[0].upper(), d.name)
+
+		if(config_generator.csvGenerator): 
+			csvFile = dirFiles + '/' + machine.split('-')[0].lower() + "-best-" + d.name + ".csv"
+			if os.path.exists(csvFile):
+				os.remove(csvFile)
+				print("Removing csv file: " + csvFile)
+			
+			create_csv(bestStrategies, csvFile, machine.split('-')[0].upper(), d.name)
+
+		if(config_generator.scurveGenerator): 
+			scurveFile = dirFiles + '/' + machine.split('-')[0].lower() + "-scurve-" + d.name + ".eps"
+			if os.path.exists(scurveFile):
+				os.remove(scurveFile)
+				print("Removing scurve file: " + scurveFile)
+			
+			create_scurve(vecMap, bestValues, scurveFile)
 
 
 def parse_files(dirFiles):
@@ -163,7 +170,12 @@ def create_csv(bestStrategies, csvFile, machine, equalOrDiff):
 	caption += sizeSegments + " on " + machine + ".\n"
 	
 	f.write(caption)
-	
+	length = 32768
+	while length <= 134217728:
+		f.write(";"+str(int(math.log(length,2))))
+		length *= 2
+	f.write("\n")
+
 	seg=1
 	while seg <= 1048576:
 		length = 32768
@@ -174,7 +186,7 @@ def create_csv(bestStrategies, csvFile, machine, equalOrDiff):
 				f.write(";--")
 			else:
 				if(length in bestStrategies[seg]):
-					f.write(";" + bestStrategies[seg][length])
+					f.write(";" + config_generator.abbreviations[bestStrategies[seg][length]])
 				else:
 					f.write(";--")
 			length *= 2
@@ -185,7 +197,8 @@ def create_csv(bestStrategies, csvFile, machine, equalOrDiff):
 	f.close()
 
 
-def scurve(vecMap, bestValues, scurveFile):
+def create_scurve(vecMap, bestValues, scurveFile):
+	print("Creating scurve file: " + scurveFile)
 	import matplotlib.pylab as plt
 
 	scurves = {}
@@ -203,12 +216,10 @@ def scurve(vecMap, bestValues, scurveFile):
 	ax.set_ylim([1, 6])
 	#ax.set_yscale('log')
 
-	symbol = {'bbsegsort':'.-','mergeseg':'*-','radixseg':'v-','nthrust':'x-','fixthrust':'m+-','fixcub':'y|-'}
-	color = {'bbsegsort':'green','mergeseg':'blue','radixseg':'red','nthrust':'purple','fixthrust':'brown','fixcub':'orange'}
-	mapName = {'bbsegsort':'H','mergeseg':'M','radixseg':'R','nthrust':'MT','fixthrust':'FT','fixcub':'FC'}
+
 
 	for strategy in scurves:
-		plt.plot(scurves[strategy], symbol[strategy], color=color[strategy], markevery=5, label=mapName[strategy])
+		plt.plot(scurves[strategy], config_generator.symbols[strategy], color=config_generator.colors[strategy], markevery=5, label=config_generator.abbreviations[strategy])
 
 	plt.ylabel('Normalized Times')
 	plt.xticks([]) # hide axis x

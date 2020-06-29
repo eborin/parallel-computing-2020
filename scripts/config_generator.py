@@ -1,3 +1,5 @@
+#!/usr/bin/python3.6
+
 # Abbreviations of each strategy, used in csv and scurve
 abbreviations = {'bbsegsort':'H','mergeseg':'M','radixseg':'R','nthrust':'MT','fixthrust':'FT','fixcub':'FC'}
 
