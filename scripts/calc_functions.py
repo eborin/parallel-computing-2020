@@ -48,9 +48,9 @@ def calc_fix_comparation(vecMap):
 	results['sort'] = {}
 	for seg in vecMap[strategy]:
 
-		results['all'][seg] = []
-		results['fix'][seg] = []
-		results['sort'][seg] = []
+		results['all'][seg] = [[],[]]
+		results['fix'][seg] = [[],[]]
+		results['sort'][seg] = [[],[]]
 
 		for length in vecMap[strategy][seg]:
 			fixcubAll = vecMap['fixcub'][seg][length]
@@ -60,9 +60,14 @@ def calc_fix_comparation(vecMap):
 			fixcubSort = fixcubAll-fixcubFix
 			fixthrustSort = fixthrustAll - fixthrustFix
 
-			results['all'][seg].append(fixcubAll / fixthrustAll)
-			results['fix'][seg].append(fixcubFix / fixthrustFix)
-			results['sort'][seg].append(fixcubSort / fixthrustSort)
+			results['all'][seg][0].append(str(length))
+			results['all'][seg][1].append(fixcubAll / fixthrustAll)
+
+			results['fix'][seg][0].append(str(length))
+			results['fix'][seg][1].append(fixcubFix / fixthrustFix)
+			
+			results['sort'][seg][0].append(str(length))
+			results['sort'][seg][1].append(fixcubSort / fixthrustSort)
 
 	return results
 
@@ -77,8 +82,8 @@ def calc_fix_relation(vecMap):
 
 	for seg in vecMap[strategy]:
 
-		results['fixcub'][seg] = []
-		results['fixthrust'][seg] = []
+		results['fixcub'][seg] = [[],[]]
+		results['fixthrust'][seg] = [[],[]]
 
 		for length in vecMap[strategy][seg]:
 			fixcubAll = vecMap['fixcub'][seg][length]
@@ -86,8 +91,9 @@ def calc_fix_relation(vecMap):
 			fixcubFix = vecMap['fixpasscub'][seg][length]
 			fixthrustFix = vecMap['fixpassthrust'][seg][length]
 
-			results['fixcub'][seg].append(fixcubFix/fixcubAll*100)
-			results['fixthrust'][seg].append(fixthrustFix/fixthrustAll*100)
-
+			results['fixcub'][seg][0].append(str(length))
+			results['fixcub'][seg][1].append(fixcubFix/fixcubAll*100)
+			results['fixthrust'][seg][0].append(str(length))
+			results['fixthrust'][seg][1].append(fixthrustFix/fixthrustAll*100)
 
 	return results

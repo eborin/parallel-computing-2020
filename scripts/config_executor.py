@@ -11,4 +11,6 @@ class Restriction(NamedTuple):
 restrictions = {}
 restrictions['global'] 		= Restriction(segInf=1,segSup=1048576,lenInf=32768,lenSup=134217728)
 restrictions['nthrust.exe'] = Restriction(segInf=1,segSup=2048   ,lenInf=32768,lenSup=134217728)
+restrictions['gtx950'] = Restriction(segInf=1,segSup=1048576   ,lenInf=32768,lenSup=67108864)
+restrictions['gtx770'] = Restriction(segInf=1,segSup=1048576   ,lenInf=32768,lenSup=67108864)
 

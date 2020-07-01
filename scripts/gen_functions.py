@@ -128,17 +128,20 @@ def create_fix_comparation(results, fixcompFile):
 	fig = plt.figure()
 	ax = fig.add_subplot(1, 1, 1)
 	ax.set_ylim([0, 9])
-	#ax.set_yscale('log')
 	
 	for entry in results:
-		plt.plot(results[entry][seg], config_generator.fixcompSymbols[entry], label=config_generator.fixcompLabels[entry])
+		plt.plot(results[entry][seg][0], results[entry][seg][1], config_generator.fixcompSymbols[entry], label=config_generator.fixcompLabels[entry])
 
-	plt.ylabel('Speedup')
-	plt.xticks([]) # hide axis x
 	plt.legend() # show line names
+	plt.ylabel('Speedup')
+	plt.xlabel('Array Lenght')
+
+	plt.xticks(rotation=30) # rotate
+	plt.subplots_adjust(bottom=0.2) # increment border
 	
+	plt.show()
 	plt.savefig(fixcompFile, format='eps')
-	#plt.show()
+
 
 def create_fixpass_relation(results, fixpassrelFile):
 	print("Creating fix relation file: " + fixpassrelFile)
@@ -151,13 +154,17 @@ def create_fixpass_relation(results, fixpassrelFile):
 	ax = fig.add_subplot(1, 1, 1)
 	ax.set_ylim([0, 70])
 	ax.yaxis.set_major_formatter(mtick.PercentFormatter())
-	#ax.set_yscale('log')
-	
-	for entry in results:
-		plt.plot(results[entry][seg], config_generator.fixpassrelSymbols[entry], label=config_generator.fixpassrelLabels[entry])
 
-	plt.ylabel('Percentage')
-	plt.xticks([]) # hide axis x
+	for entry in results:
+		plt.plot(results[entry][seg][0], results[entry][seg][1], config_generator.fixpassrelSymbols[entry], label=config_generator.fixpassrelLabels[entry])
+
 	plt.legend() # show line names
+	plt.ylabel('Percentage')
+	plt.xlabel('Array Lenght')
+
+	plt.xticks(rotation=30) # rotate
+	plt.subplots_adjust(bottom=0.2) # increment border
 	
+	plt.show()	
 	plt.savefig(fixpassrelFile, format='eps')
+
