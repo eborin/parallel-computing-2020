@@ -7,8 +7,8 @@ if(len(sys.argv) < 2):
 	print("python3.5 process_files <machine>")
 	exit()
 
-machine = str(sys.argv[1])
-dirFiles = "./times/" + machine
+dirFiles = str(sys.argv[1])
+machine = dirFiles.split("/")[1]
 print('Reading directories into directory: ', dirFiles, '".')
 
 

@@ -18,8 +18,16 @@ def scan_machine_dirs(dirFiles, machine):
 		bestStrategies = {}
 		calc_best_strategy(vecMap, bestValues, bestStrategies)
 
-		if(config_generator.texGenerator): 
-			texFile = dirFiles + '/' + machine.split('-')[0].lower() + "-best-" + d.name + ".tex"
+		if(machine.split('-')[0].lower() == "kahuna"):
+			machine = machine.split('-')[1].lower()
+		else:
+			machine = machine.split('-')[0].lower()
+
+		files_name = machine + "-" + d.name
+
+		if(config_generator.texGenerator):
+			texFile = "tex/" + files_name + ".tex"
+			texFile = texFile.replace('//','/')
 			if os.path.exists(texFile):
 				os.remove(texFile)
 				print("Removing tex file: " + texFile)
@@ -27,7 +35,8 @@ def scan_machine_dirs(dirFiles, machine):
 			create_tex(bestStrategies, texFile, machine.split('-')[0].upper(), d.name)
 
 		if(config_generator.csvGenerator): 
-			csvFile = dirFiles + '/' + machine.split('-')[0].lower() + "-best-" + d.name + ".csv"
+			csvFile = "csv/" + files_name + ".csv"
+			csvFile = csvFile.replace('//','/')
 			if os.path.exists(csvFile):
 				os.remove(csvFile)
 				print("Removing csv file: " + csvFile)
@@ -35,7 +44,8 @@ def scan_machine_dirs(dirFiles, machine):
 			create_csv(bestStrategies, csvFile, machine.split('-')[0].upper(), d.name)
 
 		if(config_generator.scurveGenerator): 
-			scurveFile = dirFiles + '/' + machine.split('-')[0].lower() + "-scurve-" + d.name + ".eps"
+			scurveFile = "eps/" + files_name + ".eps"
+			scurveFile = scurveFile.replace('//','/')
 			if os.path.exists(scurveFile):
 				os.remove(scurveFile)
 				print("Removing scurve file: " + scurveFile)
@@ -127,13 +137,13 @@ def create_tex(bestStrategies, texFile, machine, equalOrDiff):
 	f.write(tex_code.commands)
 
 	if(equalOrDiff == "equal"):
-		sizeSegments = "with the \\textbf{same size}"
+		sizeSegments = "\\\\ with the \\textbf{same size}"
 	else:
-		sizeSegments = "with \\textbf{different sizes}"
+		sizeSegments = "\\\\ with \\textbf{different sizes}"
 
 	caption = sizeSegments + " on \\textbf{" + machine + "}."
 	
-	f.write(tex_code.header(caption))
+	f.write(tex_code.header(caption, machine, equalOrDiff))
 	
 	seg=1
 	while seg <= 1048576:

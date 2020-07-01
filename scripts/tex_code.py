@@ -22,16 +22,18 @@ commands = "\
 %%\\newcommand{\\nthrust}{\\color{c1}MT}\n\
 %%\\newcommand{\\noTest}{-}\n"
 
-def header(caption):
+def header(caption, machine, equalOrDiff):
 	return "\
-\\begin{table}\n\
+\\begin{minipage}{.43\\linewidth}\n\
 \centering\n\
-\def\\arraystretch{1.2}\n\
+\def\\arraystretch{0.9}\n\
 \setlength{\\tabcolsep}{0.1em}\n\
 \scriptsize\n\
-\caption{Best results for each combination of array length and number of segments considering segments " + caption + "}\n\
+\caption{Best results for each combination of array \\\\ length and number of segments considering segments " + caption + "}\n\
+\\vspace*{-3mm}\n\
+\label{" + machine.lower() + "-" + equalOrDiff +"}\n\
 \\begin{tabular}\n\
-{|C{0.2cm}C{0.5cm}||C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}C{0.51cm}|}\n \
+{|C{0.2cm}C{0.44cm}||C{0.45cm}C{0.45cm}C{0.45cm}C{0.45cm}C{0.45cm}C{0.45cm}C{0.45cm}C{0.45cm}C{0.45cm}C{0.45cm}C{0.45cm}C{0.45cm}C{0.45cm}|}\n \
 \hhline{|*{15}{-}|}\n\
 &    & \multicolumn{13}{c|}{Array Length ($2^{n}$)} \\\\ \n\
 &    & 15         & 16         & 17         & 18         & 19         & 20         & 21         & 22         & 23         & 24         & 25         & 26         & 27 \\\\ \
@@ -41,4 +43,4 @@ def header(caption):
 tail = "\
 \hhline{|*{16}{-}|}\n\
 \end{tabular}\n\
-\end{table}\n"
+\end{minipage}\n"

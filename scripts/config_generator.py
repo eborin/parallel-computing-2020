@@ -10,7 +10,7 @@ symbols = {'bbsegsort':'.-','mergeseg':'*-','radixseg':'v-','nthrust':'x-','fixt
 colors = {'bbsegsort':'green','mergeseg':'blue','radixseg':'red','nthrust':'purple','fixthrust':'brown','fixcub':'orange'}
 
 # Gerar o csv? True or False
-texGenerator = False
+texGenerator = True
 
 # Gerar o csv? True or False
 csvGenerator = True
