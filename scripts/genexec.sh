@@ -73,6 +73,7 @@ do
 		echo -e "\n"$s"\n"$n >> $out/fixpassthrust.time2
 
 		if [ $s -le 2048 ]; then
+			echo -e "\n"$s"\n"$n >> $out/nthrust.time
 			echo -e "\n"$s"\n"$n >> $out/nthrust.time2
 		fi
 		
