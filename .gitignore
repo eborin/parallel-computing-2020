@@ -3,3 +3,6 @@
 *.in
 *.out
 *.pyc
+*.tex
+*.eps
+*.csv
