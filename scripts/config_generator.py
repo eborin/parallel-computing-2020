@@ -1,16 +1,19 @@
 #!/usr/bin/python3.6
 ######################################################################################################################
-# Gerar o csv? True or False
+# Gerar o tex? True or False
 texGenerator = True
 
+# Gerar a figura com as melhores estratégias? True or False
+bestGenerator = False
+
 # Gerar o csv? True or False
-csvGenerator = False
+csvGenerator = True
 ######################################################################################################################
 # Gerar o csv? True or False
 scurveGenerator = True
 
 # Abbreviations of each strategy, used in csv and scurve
-abbreviations = {'bbsegsort':'H','mergeseg':'M','radixseg':'R','nthrust':'MT','fixthrust':'FT','fixcub':'FC'}
+abbreviations = {'bbsegsort':'H','mergeseg':'M','radixseg':'R','nthrust':'MT','fixthrust':'FT','fixcub':'FC', '--':'--'}
 
 # Symbols to be plotted in scurve
 symbols = {'bbsegsort':'.-','mergeseg':'*-','radixseg':'v-','nthrust':'x-','fixthrust':'m+-','fixcub':'y|-'}

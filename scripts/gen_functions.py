@@ -4,7 +4,9 @@ import os
 import math
 import tex_code
 import config_generator
+import config_executor
 import calc_functions
+import parse_functions
 
 def create_tex(bestStrategies, texFile, machine, equalOrDiff):
 	print("Creating text file: " + texFile)
@@ -14,20 +16,21 @@ def create_tex(bestStrategies, texFile, machine, equalOrDiff):
 	f.write(tex_code.commands)
 
 	if(equalOrDiff == "equal"):
-		sizeSegments = "\\\\ with the \\textbf{same size}"
+		sizeSegments = " with the \\textbf{same size}"
 	else:
-		sizeSegments = "\\\\ with \\textbf{different sizes}"
+		sizeSegments = " with \\textbf{different sizes}"
 
 	caption = sizeSegments + " on \\textbf{" + machine + "}."
 	
-	f.write(tex_code.header(caption, machine, equalOrDiff))
+	f.write(tex_code.header_best_strategy(caption, machine, equalOrDiff))
 	
-	seg=1
-	while seg <= 1048576:
-		length = 32768
+	r = config_executor.restrictions['global']
+	seg=r.segInf #1
+	while seg <= r.segSup:
+		length = r.lenInf
 		f.write(" & " + str(int(math.log(seg,2))))
 
-		while length <= 134217728:
+		while length <= r.lenSup:
 			if(length/seg <= 1):
 				f.write(" & \\noTest")
 			else:
@@ -41,6 +44,182 @@ def create_tex(bestStrategies, texFile, machine, equalOrDiff):
 		f.write("\\\\ \n")
 
 	f.write(tex_code.tail)
+	f.close()
+
+def create_best_strategies(bestStrategies, bestFile):
+	import matplotlib.pylab as plt
+	fig = plt.figure()
+	ax = fig.add_subplot(111)
+	
+	#y = [1, 2, 3, 4, 5, 4, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1]    
+
+	r = config_executor.restrictions['global']
+
+	col_labels = []
+	length = r.lenInf
+	while length <= r.lenSup:
+		col_labels.append(length)
+		length *= 2
+
+	#table_vals = [[11, 12, 13], [21, 22, 23], [31, 32, 33]]
+	table_vals = []
+
+	row_labels = []	
+	seg=r.segInf #1
+	while seg <= r.segSup:
+		length = r.lenInf
+		row_labels.append(str(int(math.log(seg,2))))
+
+		row_values = []
+		while length <= r.lenSup:
+
+			if(length/seg <= 1):
+				row_values.append("--")
+			else:
+				if(length in bestStrategies[seg]):
+					row_values.append(config_generator.abbreviations[bestStrategies[seg][length]])
+				else:
+					row_values.append("--")
+
+			length *= 2
+
+		table_vals.append(row_values)
+		
+		seg *= 2
+
+	print(table_vals)
+	print(row_labels)
+	print(col_labels)
+
+	axMain = plt.subplot(2,1,1)
+	axTable1 = plt.subplot(2,1,2, frameon =False)
+	plt.setp(axTable1, xticks=[], yticks=[]) # a way of turning off ticks
+
+	axMain.plot([1,2,3])
+
+	# Draw table
+	the_table = axTable1.table(cellText=table_vals,
+	                      colWidths=[0.1] * 3,
+	                      rowLabels=row_labels,
+	                      colLabels=col_labels,
+	                      loc='center')
+	the_table.auto_set_font_size(False)
+	the_table.set_fontsize(24)
+	the_table.scale(4, 4)
+
+	# Removing ticks and spines enables you to get the figure only with table
+	#axTable1.tick_params(axis='x', which='both', bottom=False, top=False, labelbottom=False)
+	#axTable1.tick_params(axis='y', which='both', right=False, left=False, labelleft=False)
+	#for pos in ['right','top','bottom','left']:
+	#    axTable1.gca().spines[pos].set_visible(False)
+	axTable1.savefig(bestFile, bbox_inches='tight', pad_inches=0.05)
+
+
+def create_tex_count_best(countBest):
+	parse_functions.create_output_dir("output/tex-count/")
+	
+	r = config_executor.restrictions['global']
+
+	for strategy in countBest:
+		texCountFile = "output/tex-count/" + strategy + ".tex"
+		parse_functions.removing_existing_file(texCountFile)
+
+		print("Creating text file: " + texCountFile)
+		f = open(texCountFile, 'w')
+
+		caption = ""
+		f.write(tex_code.packages)
+		f.write(tex_code.commands)
+		f.write(tex_code.header_count_best(strategy))
+		
+		seg=r.segInf #1
+		while seg <= r.segSup:
+			length = r.lenInf
+			f.write(" & " + str(int(math.log(seg,2))))
+
+			while length <= r.lenSup:
+				
+				if(seg in countBest[strategy]):
+					if(length in countBest[strategy][seg]):
+						if(countBest[strategy][seg][length] == 0):
+							f.write(" & --")
+						else:
+							value = countBest[strategy][seg][length]
+
+							if(value >= 90):
+								boldValue = 1.0
+							else:
+								if(value >= 70):
+									boldValue = 0.8
+								else: 
+									if(value >= 50):
+										boldValue = 0.6
+									else:
+										if(value >= 30):
+											boldValue = 0.4
+										else:
+											if(value >= 10):
+												boldValue = 0.2
+											else:
+												boldValue = 0.1
+
+							f.write(" & \\bold"+ strategy + "{" + str(boldValue) + "}{" + str(value) + "\\%}")
+				
+				length *= 2
+			
+			seg *= 2
+			f.write("\\\\ \n")
+
+		f.write(tex_code.tail)
+		f.close()
+
+
+def create_tex_the_best(countBest):
+	parse_functions.create_output_dir("output/")
+	
+	texTheBestFile = "output/the-best.tex"
+	parse_functions.removing_existing_file(texTheBestFile)
+
+	print("Creating text file: " + texTheBestFile)
+	f = open(texTheBestFile, 'w')
+
+	r = config_executor.restrictions['global']
+
+	f.write(tex_code.packages)
+	f.write(tex_code.commands)
+	f.write(tex_code.header_the_best())
+	
+	seg=r.segInf #1
+	while seg <= r.segSup:
+		
+		length = r.lenInf
+		f.write(" & " + str(int(math.log(seg,2))))
+
+		while length <= r.lenSup:
+			
+			if(length/seg <= 1):
+				f.write(" & \\noTest")
+			
+			else:
+				
+				bestStrategy = 'noTest'
+				bestValue = 0
+				
+				for strategy in countBest:
+					if(seg in countBest[strategy]):
+						if(length in countBest[strategy][seg]):
+							if(countBest[strategy][seg][length] > bestValue):
+								bestValue = countBest[strategy][seg][length]
+								bestStrategy = strategy
+
+				f.write(" & \\" + bestStrategy)
+				
+			length *= 2
+			
+		seg *= 2
+		f.write("\\\\ \n")
+
+	f.write(tex_code.tailTheBest)
 	f.close()
 
 
@@ -57,18 +236,20 @@ def create_csv(bestStrategies, csvFile, machine, equalOrDiff):
 	caption += sizeSegments + " on " + machine + ".\n"
 	
 	f.write(caption)
-	length = 32768
-	while length <= 134217728:
+	
+	r = config_executor.restrictions['global']
+	length = r.lenInf
+	while length <= r.lenSup:
 		f.write(";"+str(int(math.log(length,2))))
 		length *= 2
 	f.write("\n")
 
-	seg=1
-	while seg <= 1048576:
-		length = 32768
+	seg=r.segInf
+	while seg <= r.segSup:
+		length = r.lenInf
 		f.write(str(int(math.log(seg,2))))
 
-		while length <= 134217728:
+		while length <= r.lenSup:
 			if(length/seg <= 1):
 				f.write(";--")
 			else:
@@ -84,30 +265,13 @@ def create_csv(bestStrategies, csvFile, machine, equalOrDiff):
 	f.close()
 
 
-def create_scurve(vecMap, bestValues, scurveFile):
+def create_scurve(scurves, scurveFile):
 	print("Creating scurve file: " + scurveFile)
 	import matplotlib.pylab as plt
-
-	scurves = {}
-	for strategy in vecMap:
-		
-		if(strategy.startswith('fixpass')):
-			continue
-
-		c = []
-		for seg in vecMap[strategy]:
-			for length in vecMap[strategy][seg]:
-				if(length in bestValues[seg]):
-					c.append(vecMap[strategy][seg][length]/bestValues[seg][length])
-
-		scurves[strategy] = sorted(c)
 
 	fig = plt.figure()
 	ax = fig.add_subplot(1, 1, 1)
 	ax.set_ylim([1, 6])
-	#ax.set_yscale('log')
-
-
 
 	for strategy in scurves:
 		plt.plot(scurves[strategy], config_generator.symbols[strategy], color=config_generator.colors[strategy], markevery=5, label=config_generator.abbreviations[strategy])
