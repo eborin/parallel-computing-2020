@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -q route
+#PBS -N Run-sort-on-K20
+#PBS -o run-exp-on-k20.out
+#PBS -e run-exp-on-k20.err
+#PBS -l walltime=72:00:00
+#PBS -l select=1:ncpus=8:ngpus=2:Qlist=GPUK20
+echo "Inicio: "`date`
+echo "Probe GPU script"
+
+(cd /home/borin/parallel-computing-2020-kahuna-k20/experimental-setup && ./tools-version.sh >> k20.txt)
+
+echo "Fim: " `date`
+
