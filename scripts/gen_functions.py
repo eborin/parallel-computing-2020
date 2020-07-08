@@ -9,6 +9,7 @@ import calc_functions
 import parse_functions
 
 def create_tex(bestStrategies, texFile, machine, equalOrDiff):
+	parse_functions.removing_existing_file(texFile)
 	print("Creating text file: " + texFile)
 	f = open(texFile, 'w')
 
@@ -46,74 +47,6 @@ def create_tex(bestStrategies, texFile, machine, equalOrDiff):
 	f.write(tex_code.tail)
 	f.close()
 
-def create_best_strategies(bestStrategies, bestFile):
-	import matplotlib.pylab as plt
-	fig = plt.figure()
-	ax = fig.add_subplot(111)
-	
-	#y = [1, 2, 3, 4, 5, 4, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1]    
-
-	r = config_executor.restrictions['global']
-
-	col_labels = []
-	length = r.lenInf
-	while length <= r.lenSup:
-		col_labels.append(length)
-		length *= 2
-
-	#table_vals = [[11, 12, 13], [21, 22, 23], [31, 32, 33]]
-	table_vals = []
-
-	row_labels = []	
-	seg=r.segInf #1
-	while seg <= r.segSup:
-		length = r.lenInf
-		row_labels.append(str(int(math.log(seg,2))))
-
-		row_values = []
-		while length <= r.lenSup:
-
-			if(length/seg <= 1):
-				row_values.append("--")
-			else:
-				if(length in bestStrategies[seg]):
-					row_values.append(config_generator.abbreviations[bestStrategies[seg][length]])
-				else:
-					row_values.append("--")
-
-			length *= 2
-
-		table_vals.append(row_values)
-		
-		seg *= 2
-
-	print(table_vals)
-	print(row_labels)
-	print(col_labels)
-
-	axMain = plt.subplot(2,1,1)
-	axTable1 = plt.subplot(2,1,2, frameon =False)
-	plt.setp(axTable1, xticks=[], yticks=[]) # a way of turning off ticks
-
-	axMain.plot([1,2,3])
-
-	# Draw table
-	the_table = axTable1.table(cellText=table_vals,
-	                      colWidths=[0.1] * 3,
-	                      rowLabels=row_labels,
-	                      colLabels=col_labels,
-	                      loc='center')
-	the_table.auto_set_font_size(False)
-	the_table.set_fontsize(24)
-	the_table.scale(4, 4)
-
-	# Removing ticks and spines enables you to get the figure only with table
-	#axTable1.tick_params(axis='x', which='both', bottom=False, top=False, labelbottom=False)
-	#axTable1.tick_params(axis='y', which='both', right=False, left=False, labelleft=False)
-	#for pos in ['right','top','bottom','left']:
-	#    axTable1.gca().spines[pos].set_visible(False)
-	axTable1.savefig(bestFile, bbox_inches='tight', pad_inches=0.05)
-
 
 def create_tex_count_best(countBest):
 	parse_functions.create_output_dir("output/tex-count/")
@@ -146,24 +79,23 @@ def create_tex_count_best(countBest):
 						else:
 							value = countBest[strategy][seg][length]
 
-							if(value >= 90):
-								boldValue = 1.0
+							if(value >= 80):
+								boldValue = 0.6
 							else:
-								if(value >= 70):
-									boldValue = 0.8
+								if(value >= 60):
+									boldValue = 0.5
 								else: 
-									if(value >= 50):
-										boldValue = 0.6
+									if(value >= 40):
+										boldValue = 0.4
 									else:
-										if(value >= 30):
-											boldValue = 0.4
+										if(value >= 20):
+											boldValue = 0.3
 										else:
-											if(value >= 10):
-												boldValue = 0.2
-											else:
-												boldValue = 0.1
+											boldValue = 0.2
 
-							f.write(" & \\bold"+ strategy + "{" + str(boldValue) + "}{" + str(value) + "\\%}")
+							#f.write(" & \\bold"+ strategy + "{" + str(boldValue) + "}{\\ApplyGradient{" + str(value) + "}}")
+							f.write(" & \\bold{" + str(boldValue) + "}{\\ApplyGradient{" + str(value) + "}}")
+							#f.write(" & \\ApplyGradient{" + str(value) + "}")
 				
 				length *= 2
 			
@@ -174,7 +106,7 @@ def create_tex_count_best(countBest):
 		f.close()
 
 
-def create_tex_the_best(countBest):
+def create_tex_the_best(selectedBests):
 	parse_functions.create_output_dir("output/")
 	
 	texTheBestFile = "output/the-best.tex"
@@ -198,21 +130,10 @@ def create_tex_the_best(countBest):
 		while length <= r.lenSup:
 			
 			if(length/seg <= 1):
-				f.write(" & \\noTest")
+				f.write(' & \\noTest')
 			
 			else:
-				
-				bestStrategy = 'noTest'
-				bestValue = 0
-				
-				for strategy in countBest:
-					if(seg in countBest[strategy]):
-						if(length in countBest[strategy][seg]):
-							if(countBest[strategy][seg][length] > bestValue):
-								bestValue = countBest[strategy][seg][length]
-								bestStrategy = strategy
-
-				f.write(" & \\" + bestStrategy)
+				f.write(' & \\' + selectedBests[seg][length])
 				
 			length *= 2
 			
@@ -222,8 +143,55 @@ def create_tex_the_best(countBest):
 	f.write(tex_code.tailTheBest)
 	f.close()
 
+def create_tex_all_bests(countBest):
+	parse_functions.create_output_dir("output/")
+	
+	texAllBestsFile = "output/all-bests.tex"
+	parse_functions.removing_existing_file(texAllBestsFile)
+
+	print("Creating text file: " + texAllBestsFile)
+	f = open(texAllBestsFile, 'w')
+
+	r = config_executor.restrictions['global']
+
+	f.write(tex_code.packages)
+	f.write(tex_code.commands)
+	f.write(tex_code.header_all_bests())
+	
+	seg=r.segInf #1
+	while seg <= r.segSup:
+		
+		length = r.lenInf
+		f.write(" & " + str(int(math.log(seg,2))))
+
+		while length <= r.lenSup:
+			f.write(" &")
+			if(length/seg <= 1):
+				f.write(" \\noTest")
+			else:
+				f.write(" \makecell{")
+				count = 0
+				for strategy in countBest:
+					if(seg in countBest[strategy]):
+						if(length in countBest[strategy][seg]):
+							if(countBest[strategy][seg][length] >= 1):
+								f.write(" \\" + strategy + "\\")
+								count += 1
+								if(count == 2):
+									#f.write(" \\\\ ")
+									count = 0
+				f.write(" }")
+			length *= 2
+			
+		seg *= 2
+		f.write("\\\\ \\hhline{|*{2}{~}||*{13}{-}|} \n")
+
+	f.write(tex_code.tailAllBests)
+	f.close()
+
 
 def create_csv(bestStrategies, csvFile, machine, equalOrDiff):
+	parse_functions.removing_existing_file(csvFile)
 	print("Creating csv file: " + csvFile)
 	f = open(csvFile, 'w')
 
@@ -266,7 +234,9 @@ def create_csv(bestStrategies, csvFile, machine, equalOrDiff):
 
 
 def create_scurve(scurves, scurveFile):
+	parse_functions.removing_existing_file(scurveFile)
 	print("Creating scurve file: " + scurveFile)
+	
 	import matplotlib.pylab as plt
 
 	fig = plt.figure()
@@ -284,6 +254,7 @@ def create_scurve(scurves, scurveFile):
 	#plt.show()
 
 def create_fix_comparation(results, fixcompFile):
+	parse_functions.removing_existing_file(fixcompFile)
 	print("Creating fix comparation file: " + fixcompFile)
 	import matplotlib.pylab as plt
 
@@ -308,6 +279,7 @@ def create_fix_comparation(results, fixcompFile):
 
 
 def create_fixpass_relation(results, fixpassrelFile):
+	parse_functions.removing_existing_file(fixpassrelFile)
 	print("Creating fix relation file: " + fixpassrelFile)
 	import matplotlib.pylab as plt
 	import matplotlib.ticker as mtick

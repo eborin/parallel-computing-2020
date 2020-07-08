@@ -3,9 +3,6 @@
 # Gerar o tex? True or False
 texGenerator = True
 
-# Gerar a figura com as melhores estratégias? True or False
-bestGenerator = False
-
 # Gerar o csv? True or False
 csvGenerator = True
 ######################################################################################################################

@@ -7,7 +7,9 @@ import gen_functions
 import config_generator
 
 def scan_machine_dirs(dirFiles, machine):
+	vecMapVector = []
 	bestStrategiesMachine = []
+	bestValuesMachine = []
 	directories = os.scandir(dirFiles)
 	for d in directories:
 		if(not d.is_dir()):
@@ -17,55 +19,48 @@ def scan_machine_dirs(dirFiles, machine):
 
 		print('Reading files into directory: ', d.path, '".')
 		vecMap = parse_strategies(d.path)
+		vecMapVector.append(vecMap)
 
 		bestStrategies, bestValues = calc_functions.calc_best_strategy(vecMap, machine)
 
 		if(config_generator.texGenerator):
 			texFile = "output/tex/" + files_name + ".tex"
-			removing_existing_file(texFile)
 			create_output_dir("output/tex/")
 			gen_functions.create_tex(bestStrategies, texFile, machine.upper(), d.name)
 
-		if(config_generator.bestGenerator):
-			bestFile = "output/best/" + files_name + ".eps"
-			removing_existing_file(bestFile)
-			create_output_dir("output/best/")
-			gen_functions.create_best_strategies(bestStrategies, bestFile)
-
 		if(config_generator.csvGenerator):
 			csvFile = "output/csv/" + files_name + ".csv"
-			removing_existing_file(csvFile)
 			create_output_dir("output/csv/")
 			gen_functions.create_csv(bestStrategies, csvFile, machine.upper(), d.name)
 
 		if(config_generator.scurveGenerator): 
 			scurveFile = "output/scurve/" + files_name + ".eps"
-			removing_existing_file(scurveFile)
 			create_output_dir("output/scurve/")
 			scurves = calc_functions.calc_scurves(vecMap, bestValues)
 			gen_functions.create_scurve(scurves, scurveFile)
 
 		if(config_generator.fixcompGenerator): 
 			fixcompFile = "output/fix/" + files_name + ".eps"
-			removing_existing_file(fixcompFile)		
 			create_output_dir("output/fix/")
 			results = calc_functions.calc_fix_comparation(vecMap)	
 			gen_functions.create_fix_comparation(results, fixcompFile)
 
 		if(config_generator.fixpassrelGenerator): 
 			fixpassrelFile = "output/fixpass/" + files_name + ".eps"
-			removing_existing_file(fixpassrelFile)
 			create_output_dir("output/fixpass/")
 			results = calc_functions.calc_fix_relation(vecMap)	
 			gen_functions.create_fixpass_relation(results, fixpassrelFile)
 
 		bestStrategiesMachine.append(bestStrategies)
+		bestValuesMachine.append(bestValues)
 
 	strategies = []
 	for strategy in vecMap:
+		if(strategy.startswith('fixpass')):
+			continue
 		strategies.append(strategy)
 
-	return bestStrategiesMachine, strategies
+	return bestStrategiesMachine, bestValuesMachine, strategies, vecMapVector
 
 
 def delete_output_dir(outputDir):

@@ -51,24 +51,6 @@ def calc_best_strategy(vecMap, machine):
 	return bestStrategies, bestValues
 
 
-def calc_scurves(vecMap, bestValues):
-
-	scurves = {}
-	for strategy in vecMap:
-		
-		if(strategy.startswith('fixpass')):
-			continue
-
-		c = []
-		for seg in vecMap[strategy]:
-			for length in vecMap[strategy][seg]:
-				if(length in bestValues[seg]):
-					c.append(vecMap[strategy][seg][length]/bestValues[seg][length])
-
-		scurves[strategy] = sorted(c)
-
-	return scurves
-
 def calc_count_best(bestStrategies, strategies):
 	r = config_executor.restrictions['global']
 	
@@ -114,6 +96,90 @@ def calc_count_best(bestStrategies, strategies):
 			seg *= 2
 
 	return countBest
+
+
+def calc_select_best(countBest):
+	r = config_executor.restrictions['global']
+
+	selectedBests = {}
+	seg=r.segInf #1
+	while seg <= r.segSup:
+		selectedBests[seg] = {}
+		
+		length = r.lenInf
+		while length <= r.lenSup:
+			if(length/seg <= 1):
+				selectedBests[seg][length] = 'noTest'
+			else:
+				bestStrategy = 'noTest'
+				bestValue = 0
+				
+				for strategy in countBest:
+					if(seg in countBest[strategy]):
+						if(length in countBest[strategy][seg]):
+							if(countBest[strategy][seg][length] > bestValue):
+								bestValue = countBest[strategy][seg][length]
+								bestStrategy = strategy
+
+				selectedBests[seg][length] = bestStrategy
+				
+			length *= 2
+			
+		seg *= 2
+
+	return selectedBests
+
+
+def calc_select_scurves(vecMapVector, selectedBests, bestValues, strategies):
+	r = config_executor.restrictions['global']
+
+	scurves = {}
+	for strategy in strategies:
+		scurves[strategy] = {}	
+		for s in strategies:
+			scurves[strategy][s] = []
+
+
+	for strategy in strategies:
+		for seg in selectedBests:
+			for length in selectedBests[seg]:
+				if(selectedBests[seg][length] == strategy):
+					for i in range(0, len(vecMapVector)):
+						for s in vecMapVector[i]:
+							if(s.startswith('fixpass')):
+								continue
+							if(not seg in vecMapVector[i][s]):
+								continue
+							if(not length in vecMapVector[i][s][seg]):
+								continue
+
+							scurves[strategy][s].append(vecMapVector[i][s][seg][length]/bestValues[i][seg][length])
+
+
+	for strategy in strategies:
+		for s in strategies:
+			scurves[strategy][s] = sorted(scurves[strategy][s])
+
+	return scurves
+
+
+def calc_scurves(vecMap, bestValues):
+
+	scurves = {}
+	for strategy in vecMap:
+		
+		if(strategy.startswith('fixpass')):
+			continue
+
+		c = []
+		for seg in vecMap[strategy]:
+			for length in vecMap[strategy][seg]:
+				if(length in bestValues[seg]):
+					c.append(vecMap[strategy][seg][length]/bestValues[seg][length])
+
+		scurves[strategy] = sorted(c)
+
+	return scurves
 
 
 def calc_fix_comparation(vecMap):

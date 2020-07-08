@@ -63,10 +63,6 @@ def header_count_best(strategy):
 \hhline{|*{15}{=}|}\n\
 \parbox[t]{1pt}{\multirow{21}{*}{\\rotatebox[origin=c]{90}{Number of segments ($2^{m}$)}}}\n"
 
-tail = "\
-\hhline{|*{16}{-}|}\n\
-\end{tabular}\n\
-\end{minipage}\n"
 
 def header_the_best():
 	return "\
@@ -86,12 +82,32 @@ def header_the_best():
 \hhline{|*{15}{=}|}\n\
 \parbox[t]{1pt}{\multirow{21}{*}{\\rotatebox[origin=c]{90}{Number of segments ($2^{m}$)}}}\n"
 
-tail = "\
-\hhline{|*{16}{-}|}\n\
-\end{tabular}\n\
-\end{minipage}\n"
 
 tailTheBest = "\
 \hhline{|*{16}{-}|}\n\
 \end{tabular}\n\
 \end{table}\n"
+
+
+def header_all_bests():
+	return "\
+\\begin{table*}\n\
+\centering\n\
+\def\\arraystretch{0.9}\n\
+\setlength{\\tabcolsep}{0.1em}\n\
+\\scriptsize\n\
+\caption{The best strategies for at least one time in each scenario considering all GPUs results}\n\
+\\vspace*{-3mm}\n\
+\label{the-best}\n\
+\\begin{tabular}\n\
+{|C{0.35cm}C{0.32cm}||c|c|c|c|c|c|c|c|c|c|c|c|c|}\n \
+\hhline{|*{15}{-}|}\n\
+&    & \multicolumn{13}{c|}{Array Length ($2^{n}$)} \\\\ \n\
+&    & 15         & 16         & 17         & 18         & 19         & 20         & 21         & 22         & 23         & 24         & 25         & 26         & 27 \\\\ \
+\hhline{|*{15}{=}|}\n\
+\parbox[t]{1pt}{\multirow{21}{*}{\\rotatebox[origin=c]{90}{Number of segments ($2^{m}$)}}}\n"
+
+tailAllBests = "\
+\hhline{|*{15}{-}|}\n\
+\end{tabular}\n\
+\end{table*}\n"
