@@ -34,8 +34,8 @@ def scan_machine_dirs(dirFiles, machine):
 			gen_functions.create_csv(bestStrategies, csvFile, machine.upper(), d.name)
 
 		if(config_generator.scurveGenerator): 
-			scurveFile = "output/scurve/" + files_name + ".eps"
-			create_output_dir("output/scurve/")
+			scurveFile = "output/scurves/" + files_name + ".eps"
+			create_output_dir("output/scurves/")
 			scurves = calc_functions.calc_scurves(vecMap, bestValues)
 			gen_functions.create_scurve(scurves, scurveFile)
 

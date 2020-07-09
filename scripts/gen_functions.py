@@ -48,7 +48,7 @@ def create_tex(bestStrategies, texFile, machine, equalOrDiff):
 	f.close()
 
 
-def create_tex_count_best(countBest):
+def create_tex_best_count(countBest):
 	parse_functions.create_output_dir("output/tex-count/")
 	
 	r = config_executor.restrictions['global']
@@ -106,10 +106,10 @@ def create_tex_count_best(countBest):
 		f.close()
 
 
-def create_tex_the_best(selectedBests):
+def create_tex_the_best(selectedBests, outputfile, caption):
 	parse_functions.create_output_dir("output/")
 	
-	texTheBestFile = "output/the-best.tex"
+	texTheBestFile = outputfile
 	parse_functions.removing_existing_file(texTheBestFile)
 
 	print("Creating text file: " + texTheBestFile)
@@ -119,7 +119,7 @@ def create_tex_the_best(selectedBests):
 
 	f.write(tex_code.packages)
 	f.write(tex_code.commands)
-	f.write(tex_code.header_the_best())
+	f.write(tex_code.header_the_best(caption))
 	
 	seg=r.segInf #1
 	while seg <= r.segSup:
@@ -241,10 +241,12 @@ def create_scurve(scurves, scurveFile):
 
 	fig = plt.figure()
 	ax = fig.add_subplot(1, 1, 1)
-	ax.set_ylim([1, 6])
+	ax.set_ylim([0, 6])
 
 	for strategy in scurves:
-		plt.plot(scurves[strategy], config_generator.symbols[strategy], color=config_generator.colors[strategy], markevery=5, label=config_generator.abbreviations[strategy])
+		length = len(scurves[strategy])
+		marks = int(length/30)
+		plt.plot(scurves[strategy], config_generator.symbols[strategy], color=config_generator.colors[strategy], markevery=marks, label=config_generator.abbreviations[strategy])
 
 	plt.ylabel('Normalized Times')
 	plt.xticks([]) # hide axis x
@@ -252,6 +254,13 @@ def create_scurve(scurves, scurveFile):
 	
 	plt.savefig(scurveFile, format='eps')
 	#plt.show()
+
+
+def generate_multiple_scurves(scurves, outputdir):
+	parse_functions.create_output_dir(outputdir)
+	for strategy in scurves:
+		create_scurve(scurves[strategy], outputdir + strategy + ".eps")
+
 
 def create_fix_comparation(results, fixcompFile):
 	parse_functions.removing_existing_file(fixcompFile)

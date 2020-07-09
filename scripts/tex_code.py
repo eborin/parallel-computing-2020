@@ -64,14 +64,14 @@ def header_count_best(strategy):
 \parbox[t]{1pt}{\multirow{21}{*}{\\rotatebox[origin=c]{90}{Number of segments ($2^{m}$)}}}\n"
 
 
-def header_the_best():
+def header_the_best(caption):
 	return "\
 \\begin{table}\n\
 \centering\n\
 \def\\arraystretch{0.9}\n\
 \setlength{\\tabcolsep}{0.1em}\n\
 \\scriptsize\n\
-\caption{The best strategy for each scenario considering all GPUs results}\n\
+\caption{" + caption + "}\n\
 \\vspace*{-3mm}\n\
 \label{the-best}\n\
 \\begin{tabular}\n\
