@@ -17,28 +17,36 @@ symbols = {'bbsegsort':'.-','mergeseg':'*-','radixseg':'v-','nthrust':'x-','fixt
 
 # Colors of each strategy
 colors = {'bbsegsort':'green','mergeseg':'blue','radixseg':'red','nthrust':'purple','fixthrust':'brown','fixcub':'orange'}
+#######################################################################################################################
+# Gerar gráfico de tempo do Fix? True or False
+fixtimesGenerator = True
+
+# Número de segmentos para a geração do gráfico
+fixtimes_seg = 32768
 ######################################################################################################################
 # Gerar a comparação entre FC e FT? True or False
-fixcompGenerator = True
+fixspeedupGenerator = True
 
 # Simbolos para a geração do gráfico
-fixcompSymbols = {'all':'.-','fix':'*-','sort':'v-'}
+fixspeedupSymbols = {'all':'.-','fix':'*-','sort':'v-'}
 
 # Labels para a geração do gráfico
-fixcompLabels = {'all':'Fix Sort FC/FT','fix':'Fix FC/FT','sort':'Sort FC/FT'}
+fixspeedupLabels = {'all':'Fix Sort FC/FT','fix':'Fix FC/FT','sort':'Sort FC/FT'}
 
 # Número de segmentos para a geração do gráfico
-fixcomp_seg = 16384
+fixspeedup_seg = 16384
 #######################################################################################################################
 # Gerar a relação fix pass/fix sort? True or False
-fixpassrelGenerator = True
+fixstepsGenerator = True
 
 # Simbolos para a geração do gráfico
-fixpassrelSymbols = {'fixthrust':'m+-','fixcub':'y|-'}
+fixstepsSymbols = {'fixthrust':'m+-','fixcub':'y|-'}
 
 # Labels para a geração do gráfico
-fixpassrelLabels = {'fixcub':'Fix/FC', 'fixthrust':'Fix/FT'}
+fixstepsLabels = {'fixcub':'Fix/FC', 'fixthrust':'Fix/FT'}
 
 # Número de segmentos para a geração do gráfico
-fixpassrel_seg = 16384
+fixsteps_seg = 16384
 #######################################################################################################################
+# Gerar hou curve? True or False
+houGenerator = True

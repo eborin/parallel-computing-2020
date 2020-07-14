@@ -185,6 +185,87 @@ def calc_min_overload(vecMapVector, bestValues, strategies):
 	return selectedBests
 
 
+def calc_better_worst(vecMapVector, bestValues, strategies):
+	r = config_executor.restrictions['global']
+
+	selectedBests = {}
+	seg=r.segInf
+	while seg <= r.segSup:
+		selectedBests[seg] = {}
+		
+		length = r.lenInf
+		while length <= r.lenSup:
+			if(length/seg <= 1):
+				selectedBests[seg][length] = 'noTest'
+			else:
+				minTime = float('inf')
+				bestStrategy = 'noTest'
+
+				for s in strategies:
+					maxTime = 0.0;
+
+					for i in range(0, len(vecMapVector)):
+						if(s.startswith('fixpass')):
+							continue
+						
+						if(not s in vecMapVector[i]):
+							continue
+						if(not seg in vecMapVector[i][s]):
+							continue
+						if(not length in vecMapVector[i][s][seg]):
+							continue
+
+						if(not seg in bestValues[i]):
+							continue
+						if(not length in bestValues[i][seg]):
+							continue
+
+						curTime = vecMapVector[i][s][seg][length]/bestValues[i][seg][length]
+
+						if(curTime > maxTime):
+							maxTime = curTime
+
+					if(maxTime == 0.0):
+						continue
+
+					if(maxTime < minTime):
+						minTime = maxTime
+						bestStrategy = s
+
+				selectedBests[seg][length] = bestStrategy
+		
+			length *= 2
+		
+		seg *= 2
+
+	return selectedBests
+
+def calc_the_scurves(vecMapVector, bestValues, strategies):
+	r = config_executor.restrictions['global']
+
+	scurves = {}
+	for strategy in strategies:
+		scurves[strategy] = []	
+
+
+	for strategy in strategies:	
+		if(strategy.startswith('fixpass')):
+			continue
+		for i in range(0, len(vecMapVector)):
+			for seg in vecMapVector[i][strategy]:
+				for length in vecMapVector[i][strategy][seg]:
+					if(seg not in bestValues[i]):
+						continue
+					if(length not in bestValues[i][seg]):
+						continue
+
+					scurves[strategy].append(vecMapVector[i][strategy][seg][length]/bestValues[i][seg][length])
+	
+		scurves[strategy] = sorted(scurves[strategy])		
+
+	return scurves
+
+
 def calc_select_scurves(vecMapVector, selectedBests, bestValues, strategies):
 	r = config_executor.restrictions['global']
 
@@ -227,6 +308,57 @@ def calc_select_scurves(vecMapVector, selectedBests, bestValues, strategies):
 
 	return scurves
 
+def calc_hou_curve(vecMap):
+	r = config_executor.restrictions['global']
+	strategy = 'bbsegsort'
+	houCurve = {}
+
+	length = r.lenInf
+	while length <= r.lenSup:
+		houCurve[length] = [[],[]]
+
+		seg=r.segInf
+		while seg <= r.segSup:
+			if(length/seg <= 1):
+				break;
+			if(not seg in vecMap[strategy]):
+				break;
+			if(not length in vecMap[strategy][seg]):
+				break;
+
+			#if(seg > 8000):
+			houCurve[length][0].append(str(seg))
+			houCurve[length][1].append(vecMap[strategy][seg][length])
+		
+			seg *= 2
+		
+		length *= 2
+
+	return houCurve
+
+
+def calc_fix_times(vecMap):
+	r = config_executor.restrictions['global']
+	strategies = ['fixpasscub','fixpassthrust']
+	fixCurve = {}
+
+	for strategy in strategies:
+		fixCurve[strategy] = {}
+		
+		for seg in vecMap[strategy]:
+			fixCurve[strategy][seg] = [[],[]]
+
+			for length in vecMap[strategy][seg]:
+				fixCurve[strategy][seg][0].append(str(length))
+				fixCurve[strategy][seg][1].append(vecMap[strategy][seg][length])
+		
+			seg *= 2
+		
+		length *= 2
+
+	return fixCurve
+
+
 
 def calc_scurves(vecMap, bestValues):
 
@@ -247,8 +379,9 @@ def calc_scurves(vecMap, bestValues):
 	return scurves
 
 
-def calc_fix_comparation(vecMap):
-	print("Caculating fix comparations...")
+
+def calc_fix_speedup(vecMap):
+	print("Caculating fix speedup...")
 
 	strategy = 'fixcub'
 	results = {}
@@ -281,8 +414,8 @@ def calc_fix_comparation(vecMap):
 	return results
 
 
-def calc_fix_relation(vecMap):
-	print("Caculating fix relations...")
+def calc_fix_steps(vecMap):
+	print("Caculating fix steps...")
 
 	strategy = 'fixcub'
 	results = {}

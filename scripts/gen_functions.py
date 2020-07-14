@@ -245,7 +245,7 @@ def create_scurve(scurves, scurveFile):
 
 	for strategy in scurves:
 		length = len(scurves[strategy])
-		marks = int(length/30)
+		marks = int(length/30+1)
 		plt.plot(scurves[strategy], config_generator.symbols[strategy], color=config_generator.colors[strategy], markevery=marks, label=config_generator.abbreviations[strategy])
 
 	plt.ylabel('Normalized Times')
@@ -262,19 +262,72 @@ def generate_multiple_scurves(scurves, outputdir):
 		create_scurve(scurves[strategy], outputdir + strategy + ".eps")
 
 
-def create_fix_comparation(results, fixcompFile):
-	parse_functions.removing_existing_file(fixcompFile)
-	print("Creating fix comparation file: " + fixcompFile)
+def create_hou_curve(houCurve, houFile):
+	parse_functions.removing_existing_file(houFile)
+	print("Creating Hou file: " + houFile)
+	strategy = 'bbsegsort'
+
 	import matplotlib.pylab as plt
 
-	seg = config_generator.fixcomp_seg
+	fig = plt.figure()
+	ax = fig.add_subplot(1, 1, 1)
+	ax.set_ylim([0, 5])
+	
+	for length in houCurve:
+		plt.plot(houCurve[length][0], houCurve[length][1], label=str(length))
+
+	#for seg in houCurve:
+#		plt.plot(houCurve[seg], config_generator.symbols[strategy], color=config_generator.colors[strategy], label=config_generator.abbreviations[strategy])
+
+	plt.ylabel('Execution Time')
+	plt.xlabel('Number of Segments')
+	plt.xticks(rotation=30) # rotate
+	plt.subplots_adjust(right=0.75) # increment border
+	#plt.xticks([]) # hide axis x
+	plt.legend(loc='center left', bbox_to_anchor=(1, 0.5)) # show line names
+	
+	plt.savefig(houFile, format='eps')
+	#plt.show()
+
+def create_fix_times(fixTimes, fixFile):
+	parse_functions.removing_existing_file(fixFile)
+	print("Creating Fix file: " + fixFile)
+
+	seg = config_generator.fixtimes_seg
+	import matplotlib.pylab as plt
+
+	fig = plt.figure()
+	ax = fig.add_subplot(1, 1, 1)
+	#ax.set_ylim([0, 5])
+	
+	for strategy in fixTimes:
+		plt.plot(fixTimes[strategy][seg][0], fixTimes[strategy][seg][1], label=str(strategy))
+
+	plt.ylabel('Execution Time')
+	plt.xlabel('Array lenght')
+	plt.xticks(rotation=30) # rotate
+	plt.legend()
+	#plt.subplots_adjust(bottom=0.2, right=0.75) # increment border
+	#plt.xticks([]) # hide axis x
+	#plt.legend(loc='center left', bbox_to_anchor=(1, 0.5)) # show line names
+	
+	plt.savefig(fixFile, format='eps')
+	#plt.show()
+
+
+def create_fix_speedup(results, fixspeedupFile):
+	parse_functions.removing_existing_file(fixspeedupFile)
+	print("Creating fix speedup file: " + fixspeedupFile)
+	import matplotlib.pylab as plt
+
+	seg = config_generator.fixspeedup_seg
 
 	fig = plt.figure()
 	ax = fig.add_subplot(1, 1, 1)
 	ax.set_ylim([0, 9])
 	
 	for entry in results:
-		plt.plot(results[entry][seg][0], results[entry][seg][1], config_generator.fixcompSymbols[entry], label=config_generator.fixcompLabels[entry])
+		plt.plot(results[entry][seg][0], results[entry][seg][1], config_generator.fixspeedupSymbols[entry], label=config_generator.fixspeedupLabels[entry])
 
 	plt.legend() # show line names
 	plt.ylabel('Speedup')
@@ -284,16 +337,16 @@ def create_fix_comparation(results, fixcompFile):
 	plt.subplots_adjust(bottom=0.2) # increment border
 	
 	plt.show()
-	plt.savefig(fixcompFile, format='eps')
+	plt.savefig(fixspeedupFile, format='eps')
 
 
-def create_fixpass_relation(results, fixpassrelFile):
-	parse_functions.removing_existing_file(fixpassrelFile)
-	print("Creating fix relation file: " + fixpassrelFile)
+def create_fix_steps(results, fixstepsFile):
+	parse_functions.removing_existing_file(fixstepsFile)
+	print("Creating fix relation file: " + fixstepsFile)
 	import matplotlib.pylab as plt
 	import matplotlib.ticker as mtick
 
-	seg = config_generator.fixpassrel_seg
+	seg = config_generator.fixsteps_seg
 
 	fig = plt.figure()
 	ax = fig.add_subplot(1, 1, 1)
@@ -301,7 +354,7 @@ def create_fixpass_relation(results, fixpassrelFile):
 	ax.yaxis.set_major_formatter(mtick.PercentFormatter())
 
 	for entry in results:
-		plt.plot(results[entry][seg][0], results[entry][seg][1], config_generator.fixpassrelSymbols[entry], label=config_generator.fixpassrelLabels[entry])
+		plt.plot(results[entry][seg][0], results[entry][seg][1], config_generator.fixstepsSymbols[entry], label=config_generator.fixstepsLabels[entry])
 
 	plt.legend() # show line names
 	plt.ylabel('Percentage')
@@ -311,5 +364,5 @@ def create_fixpass_relation(results, fixpassrelFile):
 	plt.subplots_adjust(bottom=0.2) # increment border
 	
 	plt.show()	
-	plt.savefig(fixpassrelFile, format='eps')
+	plt.savefig(fixstepsFile, format='eps')
 

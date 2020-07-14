@@ -43,7 +43,10 @@ else:
 		
 	countBest = calc_functions.calc_best_count(bestStrategies, strategies)
 	gen_functions.create_tex_best_count(countBest)
-	#gen_functions.create_tex_all_bests(countBest)
+	
+	scurves = calc_functions.calc_the_scurves(vecMaps, bestValues, strategies)
+	gen_functions.create_scurve(scurves, "output/scurve.eps")
+
 	
 	selectedBests = calc_functions.calc_select_best(countBest)
 	gen_functions.create_tex_the_best(selectedBests, "output/best-count.tex", "Each scenario with the best strategy in the most of the cases considering all GPUs results")
@@ -54,4 +57,8 @@ else:
 	gen_functions.create_tex_the_best(selectedBests, "output/min-overload.tex", "Each scenario with the strategy which results in the average less impact between all GPUs results")
 	scurves = calc_functions.calc_select_scurves(vecMaps, selectedBests, bestValues, strategies)
 	gen_functions.generate_multiple_scurves(scurves, "output/scurves/min-overload/")
-		
+	
+	selectedBests = calc_functions.calc_better_worst(vecMaps, bestValues, strategies)
+	gen_functions.create_tex_the_best(selectedBests, "output/better-worst.tex", "Each scenario with the strategy which results in the better worst time between all GPUs results")
+	scurves = calc_functions.calc_select_scurves(vecMaps, selectedBests, bestValues, strategies)
+	gen_functions.generate_multiple_scurves(scurves, "output/scurves/better-worst/")

@@ -39,17 +39,29 @@ def scan_machine_dirs(dirFiles, machine):
 			scurves = calc_functions.calc_scurves(vecMap, bestValues)
 			gen_functions.create_scurve(scurves, scurveFile)
 
-		if(config_generator.fixcompGenerator): 
-			fixcompFile = "output/fix/" + files_name + ".eps"
-			create_output_dir("output/fix/")
-			results = calc_functions.calc_fix_comparation(vecMap)	
-			gen_functions.create_fix_comparation(results, fixcompFile)
+		if(config_generator.fixspeedupGenerator): 
+			fixspeedupFile = "output/fix/speedup" + files_name + ".eps"
+			create_output_dir("output/fix/speedup")
+			results = calc_functions.calc_fix_speedup(vecMap)	
+			gen_functions.create_fix_speedup(results, fixspeedupFile)
 
-		if(config_generator.fixpassrelGenerator): 
-			fixpassrelFile = "output/fixpass/" + files_name + ".eps"
-			create_output_dir("output/fixpass/")
-			results = calc_functions.calc_fix_relation(vecMap)	
-			gen_functions.create_fixpass_relation(results, fixpassrelFile)
+		if(config_generator.fixstepsGenerator): 
+			fixstepsFile = "output/fix/steps/" + files_name + ".eps"
+			create_output_dir("output/fix/steps")
+			results = calc_functions.calc_fix_steps(vecMap)	
+			gen_functions.create_fix_steps(results, fixstepsFile)
+
+		if(config_generator.fixtimesGenerator): 
+			fixtimesFile = "output/fix/times/" + files_name + ".eps"
+			create_output_dir("output/fix/times/")
+			fixtimes = calc_functions.calc_fix_times(vecMap)	
+			gen_functions.create_fix_times(fixtimes, fixtimesFile)
+
+		if(config_generator.houGenerator): 
+			houFile = "output/hou/" + files_name + ".eps"
+			create_output_dir("output/hou/")
+			houCurve = calc_functions.calc_hou_curve(vecMap)	
+			gen_functions.create_hou_curve(houCurve, houFile)
 
 		bestStrategiesMachine.append(bestStrategies)
 		bestValuesMachine.append(bestValues)
