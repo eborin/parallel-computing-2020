@@ -4,52 +4,6 @@ import os
 import math
 import config_executor
 
-def calc_best_strategy(vecMap, machine):
-	print("Caculating best strategies...")
-	
-	bestStrategies = {}
-	bestValues = {}
-
-	if(machine in config_executor.restrictions):
-		r = config_executor.restrictions[machine]	
-	else:
-		r = config_executor.restrictions['global']
-	
-	seg = r.segInf
-	while(seg <= r.segSup):
-
-		bestStrategies[seg] = {}
-		bestValues[seg] = {}
-
-		length = r.lenInf
-		while(length <= r.lenSup):
-			if(length/seg > 1):
-				minValue = float("inf") #vecMap['bbsegsort'][seg][length]
-				minChoice = '--'
-			
-				for strategy in vecMap:
-
-					if(strategy.startswith('fixpass')):
-						continue
-
-					if(not seg in vecMap[strategy]):
-						continue
-
-					if(not length in vecMap[strategy][seg]):
-						continue
-					
-					if(vecMap[strategy][seg][length] < minValue):
-						minValue = vecMap[strategy][seg][length]
-						minChoice = strategy
-
-				bestValues[seg][length] = minValue
-				bestStrategies[seg][length] = minChoice
-			length *= 2
-
-		seg *= 2
-
-	return bestStrategies, bestValues
-
 
 def calc_best_count(bestStrategies, strategies):
 	r = config_executor.restrictions['global']
@@ -147,12 +101,12 @@ def calc_min_overload(vecMapVector, bestValues, strategies):
 				bestStrategy = 'noTest'
 
 				for s in strategies:
+					if(s.startswith('fixpass')):
+						continue
+
 					avg = 0.0
 					count = 0.0
 					for i in range(0, len(vecMapVector)):
-						if(s.startswith('fixpass')):
-							continue
-						
 						if(not s in vecMapVector[i]):
 							continue
 						if(not seg in vecMapVector[i][s]):
@@ -167,10 +121,10 @@ def calc_min_overload(vecMapVector, bestValues, strategies):
 						
 						count += 1.0
 						avg += vecMapVector[i][s][seg][length]/bestValues[i][seg][length]
-
-					if(count == 0):
+			
+					if(count <= 0):
 						continue
-					
+
 					avg /= count
 					if(avg < minValue):
 						minValue = avg
@@ -185,7 +139,7 @@ def calc_min_overload(vecMapVector, bestValues, strategies):
 	return selectedBests
 
 
-def calc_better_worst(vecMapVector, bestValues, strategies):
+def calc_best_worst(vecMapVector, bestValues, strategies):
 	r = config_executor.restrictions['global']
 
 	selectedBests = {}
@@ -241,12 +195,9 @@ def calc_better_worst(vecMapVector, bestValues, strategies):
 	return selectedBests
 
 def calc_the_scurves(vecMapVector, bestValues, strategies):
-	r = config_executor.restrictions['global']
-
 	scurves = {}
 	for strategy in strategies:
 		scurves[strategy] = []	
-
 
 	for strategy in strategies:	
 		if(strategy.startswith('fixpass')):
@@ -267,8 +218,6 @@ def calc_the_scurves(vecMapVector, bestValues, strategies):
 
 
 def calc_select_scurves(vecMapVector, selectedBests, bestValues, strategies):
-	r = config_executor.restrictions['global']
-
 	scurves = {}
 	for strategy in strategies:
 		scurves[strategy] = {}	
@@ -308,134 +257,108 @@ def calc_select_scurves(vecMapVector, selectedBests, bestValues, strategies):
 
 	return scurves
 
-def calc_hou_curve(vecMap):
-	r = config_executor.restrictions['global']
-	strategy = 'bbsegsort'
-	houCurve = {}
 
-	length = r.lenInf
-	while length <= r.lenSup:
-		houCurve[length] = [[],[]]
-
-		seg=r.segInf
-		while seg <= r.segSup:
-			if(length/seg <= 1):
-				break;
-			if(not seg in vecMap[strategy]):
-				break;
-			if(not length in vecMap[strategy][seg]):
-				break;
-
-			#if(seg > 8000):
-			houCurve[length][0].append(str(seg))
-			houCurve[length][1].append(vecMap[strategy][seg][length])
-		
-			seg *= 2
-		
-		length *= 2
-
-	return houCurve
-
-
-def calc_fix_times(vecMap):
-	r = config_executor.restrictions['global']
-	strategies = ['fixpasscub','fixpassthrust']
-	fixCurve = {}
-
-	for strategy in strategies:
-		fixCurve[strategy] = {}
-		
-		for seg in vecMap[strategy]:
-			fixCurve[strategy][seg] = [[],[]]
-
-			for length in vecMap[strategy][seg]:
-				fixCurve[strategy][seg][0].append(str(length))
-				fixCurve[strategy][seg][1].append(vecMap[strategy][seg][length])
-		
-			seg *= 2
-		
-		length *= 2
-
-	return fixCurve
-
-
-
-def calc_scurves(vecMap, bestValues):
-
-	scurves = {}
-	for strategy in vecMap:
-		
-		if(strategy.startswith('fixpass')):
-			continue
-
-		c = []
-		for seg in vecMap[strategy]:
-			for length in vecMap[strategy][seg]:
-				if(length in bestValues[seg]):
-					c.append(vecMap[strategy][seg][length]/bestValues[seg][length])
-
-		scurves[strategy] = sorted(c)
-
-	return scurves
-
-
-
-def calc_fix_speedup(vecMap):
+def calc_avg_fix_speedup(vecMapVector):
 	print("Caculating fix speedup...")
 
-	strategy = 'fixcub'
+	r = config_executor.restrictions['global']
 	results = {}
 	results['all'] = {}
 	results['fix'] = {}
 	results['sort'] = {}
-	for seg in vecMap[strategy]:
 
-		results['all'][seg] = [[],[]]
-		results['fix'][seg] = [[],[]]
-		results['sort'][seg] = [[],[]]
+	seg=r.segInf
+	while seg <= r.segSup:
+		results['all'][seg] = [[],[],[],[]]
+		results['fix'][seg] = [[],[],[],[]]
+		results['sort'][seg] = [[],[],[],[]]
+		
+		length = r.lenInf
+		while length <= r.lenSup:
+			if(length/seg > 1):
+				minAll = float('inf')
+				avgAll = 0.0
+				maxAll = 0.0
 
-		for length in vecMap[strategy][seg]:
-			fixcubAll = vecMap['fixcub'][seg][length]
-			fixthrustAll = vecMap['fixthrust'][seg][length]
-			fixcubFix = vecMap['fixpasscub'][seg][length]
-			fixthrustFix = vecMap['fixpassthrust'][seg][length]
-			fixcubSort = fixcubAll-fixcubFix
-			fixthrustSort = fixthrustAll - fixthrustFix
+				minFix = float('inf')
+				avgFix = 0.0
+				maxFix = 0.0
+				
+				minSort = float('inf')
+				avgSort = 0.0
+				maxSort = 0.0
 
-			results['all'][seg][0].append(str(length))
-			results['all'][seg][1].append(fixcubAll / fixthrustAll)
-
-			results['fix'][seg][0].append(str(length))
-			results['fix'][seg][1].append(fixcubFix / fixthrustFix)
+				count = 0
+				for i in range(0, len(vecMapVector)):
+					if(seg not in vecMapVector[i]['fixpasscub']):
+						continue
+					if(seg not in vecMapVector[i]['fixpassthrust']):
+						continue
+					if(length not in vecMapVector[i]['fixpasscub'][seg]):
+						continue
+					if(length not in vecMapVector[i]['fixpassthrust'][seg]):
+						continue
 			
-			results['sort'][seg][0].append(str(length))
-			results['sort'][seg][1].append(fixcubSort / fixthrustSort)
+					fixcubAll = vecMapVector[i]['fixcub'][seg][length]
+					fixthrustAll = vecMapVector[i]['fixthrust'][seg][length]
+					fixcubFix = vecMapVector[i]['fixpasscub'][seg][length]
+					fixthrustFix = vecMapVector[i]['fixpassthrust'][seg][length]
+					fixcubSort = fixcubAll-fixcubFix
+					fixthrustSort = fixthrustAll - fixthrustFix
+
+					curValueAll = fixcubAll / fixthrustAll
+					curValueFix = fixcubFix / fixthrustFix
+					curValueSort = fixcubSort / fixthrustSort
+
+					count += 1
+					avgAll += curValueAll
+					avgFix += curValueFix
+					avgSort += curValueSort
+
+					if(curValueAll < minAll): minAll = curValueAll
+					if(curValueFix < minFix): minFix = curValueFix
+					if(curValueSort < minSort): minSort = curValueSort
+
+					if(curValueAll > maxAll): maxAll = curValueAll
+					if(curValueFix > maxFix): maxFix = curValueFix
+					if(curValueSort > maxSort): maxSort = curValueSort
+
+				avgAll /= count
+				avgFix /= count
+				avgSort /= count
+
+				results['all'][seg][0].append(str(length))
+				results['all'][seg][1].append(minAll)
+				results['all'][seg][2].append(maxAll)
+				results['all'][seg][3].append(avgAll)
+
+				results['fix'][seg][0].append(str(length))
+				results['fix'][seg][1].append(minFix)
+				results['fix'][seg][2].append(maxFix)
+				results['fix'][seg][3].append(avgFix)
+				
+				results['sort'][seg][0].append(str(length))
+				results['sort'][seg][1].append(minSort)
+				results['sort'][seg][2].append(maxSort)
+				results['sort'][seg][3].append(avgSort)
+
+			length *= 2
+	
+		seg *= 2
+
 
 	return results
 
 
-def calc_fix_steps(vecMap):
-	print("Caculating fix steps...")
 
-	strategy = 'fixcub'
-	results = {}
-	results['fixcub'] = {}
-	results['fixthrust'] = {}
 
-	for seg in vecMap[strategy]:
 
-		results['fixcub'][seg] = [[],[]]
-		results['fixthrust'][seg] = [[],[]]
 
-		for length in vecMap[strategy][seg]:
-			fixcubAll = vecMap['fixcub'][seg][length]
-			fixthrustAll = vecMap['fixthrust'][seg][length]
-			fixcubFix = vecMap['fixpasscub'][seg][length]
-			fixthrustFix = vecMap['fixpassthrust'][seg][length]
 
-			results['fixcub'][seg][0].append(str(length))
-			results['fixcub'][seg][1].append(fixcubFix/fixcubAll*100)
-			results['fixthrust'][seg][0].append(str(length))
-			results['fixthrust'][seg][1].append(fixthrustFix/fixthrustAll*100)
 
-	return results
+
+
+
+
+
+	

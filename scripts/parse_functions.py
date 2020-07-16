@@ -2,7 +2,7 @@
 
 import os
 import math
-import calc_functions
+import calc_local_functions as calc_functions
 import gen_functions
 import config_generator
 

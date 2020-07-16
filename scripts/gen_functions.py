@@ -5,7 +5,6 @@ import math
 import tex_code
 import config_generator
 import config_executor
-import calc_functions
 import parse_functions
 
 def create_tex(bestStrategies, texFile, machine, equalOrDiff):
@@ -241,7 +240,7 @@ def create_scurve(scurves, scurveFile):
 
 	fig = plt.figure()
 	ax = fig.add_subplot(1, 1, 1)
-	ax.set_ylim([0, 6])
+	ax.set_ylim([0, 9])
 
 	for strategy in scurves:
 		length = len(scurves[strategy])
@@ -262,6 +261,40 @@ def generate_multiple_scurves(scurves, outputdir):
 		create_scurve(scurves[strategy], outputdir + strategy + ".eps")
 
 
+def create_avg_fix_speedup(results, fixspeedupFile):
+	parse_functions.removing_existing_file(fixspeedupFile)
+	print("Creating fix speedup file: " + fixspeedupFile)
+	import matplotlib.pylab as plt
+
+	seg = config_generator.fixspeedup_seg
+
+	fig = plt.figure()
+	ax = fig.add_subplot(1, 1, 1)
+	ax.set_ylim([0, 9])
+
+	for i in range(1, 4):	
+		for entry in results:
+			label = config_generator.fixspeedupLabelsCalc[i-1]+config_generator.fixspeedupLabels[entry]
+			symbol = config_generator.fixspeedupSymbolsCalc[i-1]
+
+			if(i == 3): 
+				plt.plot(results[entry][seg][0], results[entry][seg][i], symbol, color=config_generator.fixspeedupColors[entry], label=label)
+			else:
+				plt.plot(results[entry][seg][0], results[entry][seg][i], symbol, color=config_generator.fixspeedupColors[entry], label=label, linewidth=0.1, dashes=(5, 10), markersize=1)
+				
+			
+
+	plt.legend() # show line names
+	plt.ylabel('Speedup')
+	plt.xlabel('Array Lenght')
+
+	plt.xticks(rotation=30) # rotate
+	plt.subplots_adjust(bottom=0.2) # increment border
+	
+	plt.show()
+	plt.savefig(fixspeedupFile, format='eps')
+
+
 def create_hou_curve(houCurve, houFile):
 	parse_functions.removing_existing_file(houFile)
 	print("Creating Hou file: " + houFile)
@@ -271,9 +304,12 @@ def create_hou_curve(houCurve, houFile):
 
 	fig = plt.figure()
 	ax = fig.add_subplot(1, 1, 1)
-	ax.set_ylim([0, 5])
+	ax.set_ylim([0, 1.5])
 	
 	for length in houCurve:
+		if(length > 530000):
+			continue;
+
 		plt.plot(houCurve[length][0], houCurve[length][1], label=str(length))
 
 	#for seg in houCurve:
@@ -282,10 +318,11 @@ def create_hou_curve(houCurve, houFile):
 	plt.ylabel('Execution Time')
 	plt.xlabel('Number of Segments')
 	plt.xticks(rotation=30) # rotate
-	plt.subplots_adjust(right=0.75) # increment border
-	#plt.xticks([]) # hide axis x
-	plt.legend(loc='center left', bbox_to_anchor=(1, 0.5)) # show line names
-	
+	plt.subplots_adjust(bottom=0.2) # increment border
+
+	#plt.legend(loc='center left', bbox_to_anchor=(1, 0.5)) # show line names
+	#plt.subplots_adjust(right=0.75) # increment border
+	plt.legend()
 	plt.savefig(houFile, format='eps')
 	#plt.show()
 

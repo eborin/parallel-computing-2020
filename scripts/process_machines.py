@@ -3,7 +3,7 @@
 import sys
 import os
 import parse_functions
-import calc_functions
+import calc_global_functions as calc_functions
 import gen_functions
 
 
@@ -47,6 +47,8 @@ else:
 	scurves = calc_functions.calc_the_scurves(vecMaps, bestValues, strategies)
 	gen_functions.create_scurve(scurves, "output/scurve.eps")
 
+	fixspeedup = calc_functions.calc_avg_fix_speedup(vecMaps)	
+	gen_functions.create_avg_fix_speedup(fixspeedup, "output/avg-fix-speedup.eps")
 	
 	selectedBests = calc_functions.calc_select_best(countBest)
 	gen_functions.create_tex_the_best(selectedBests, "output/best-count.tex", "Each scenario with the best strategy in the most of the cases considering all GPUs results")
@@ -58,7 +60,7 @@ else:
 	scurves = calc_functions.calc_select_scurves(vecMaps, selectedBests, bestValues, strategies)
 	gen_functions.generate_multiple_scurves(scurves, "output/scurves/min-overload/")
 	
-	selectedBests = calc_functions.calc_better_worst(vecMaps, bestValues, strategies)
-	gen_functions.create_tex_the_best(selectedBests, "output/better-worst.tex", "Each scenario with the strategy which results in the better worst time between all GPUs results")
+	selectedBests = calc_functions.calc_best_worst(vecMaps, bestValues, strategies)
+	gen_functions.create_tex_the_best(selectedBests, "output/best-worst.tex", "Each scenario with the strategy which results in the best worst time between all GPUs results")
 	scurves = calc_functions.calc_select_scurves(vecMaps, selectedBests, bestValues, strategies)
-	gen_functions.generate_multiple_scurves(scurves, "output/scurves/better-worst/")
+	gen_functions.generate_multiple_scurves(scurves, "output/scurves/best-worst/")

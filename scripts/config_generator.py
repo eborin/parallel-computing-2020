@@ -29,9 +29,12 @@ fixspeedupGenerator = True
 
 # Simbolos para a geração do gráfico
 fixspeedupSymbols = {'all':'.-','fix':'*-','sort':'v-'}
+fixspeedupSymbolsCalc = ['v--','^--','.-']
+fixspeedupColors = {'all':'green','fix':'blue','sort':'red'}
 
 # Labels para a geração do gráfico
 fixspeedupLabels = {'all':'Fix Sort FC/FT','fix':'Fix FC/FT','sort':'Sort FC/FT'}
+fixspeedupLabelsCalc = ['Min ','Max ','Average ']
 
 # Número de segmentos para a geração do gráfico
 fixspeedup_seg = 16384
